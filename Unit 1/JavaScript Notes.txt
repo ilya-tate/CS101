@@ -1,0 +1,4 @@
+- console.log() - Checking code as it runs. easier to spot errors and debug
+- alert() - popup. pauses program and stops it from running. nice way to stop user from doing something before accessing their site.
+- confirm() - checks for yes or no from user
+- prompt() - collecting info from user, such as text. can be stored as variable

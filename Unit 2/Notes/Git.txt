@@ -1,0 +1,50 @@
+Git:
+Version control system
+Save snapshots of work with a history of the versions
+Create branches making teamwork and collaboration easier
+
+
+Privacy and Safety:
+GitHub is open source
+Public and private setting
+Anyone can access public code
+Can borrow other's work
+
+
+1. Working Directory - Local directory housing all your project files
+2. Modified Files - Files that have been changed in any way, both finished and unfinished
+3. Staging Area - From changed files that have been finished updating
+4. Committed - When files are sent to repository and this is the final snapshot, can always revert back
+
+
+Setting Up Global Terminal -
+git config --global user.name <NAME>
+git config --global user.email <EMAIL>
+git config --global init.defaultBranch "main"
+// Used to be master, but is becoming main
+// Sometimes "main" is "stable", "release", "current", etc.
+git config --global color.ui true
+// Allows terminal to output color
+git config --global core.editor emacs
+// Text editor
+
+
+GitHub:
+Online cloud repository
+git clone <URL>
+// Makes a dir of the repo on your local computer
+When you pull or push there is a change of getting a conflict.
+To assist in preventing this, alwasy pull prior ot pushing
+
+Branches:
+Different branches of code that can be combined later.
+git branch [NAME] // Create new branch
+git checkout [BRANCH] // Switch to new branch
+git checkout -b [BRANCH] // Create new branch and switch
+git diff // Show what has been added
+git [command] --help // Open command help page
+One person in charge of branching and merging.
+GitKraken used to visualize git procedure.
+Effective naming
+Merge when work is finished.
+git merge [BRANCH] // Merge current branch with named branch

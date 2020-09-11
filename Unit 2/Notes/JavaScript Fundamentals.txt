@@ -1,0 +1,148 @@
+Variables - Reference that store information. Can store almost anything, not just numbers.
+Variables are like boxes with names.
+Variable Structure: Keyword | Name | Assignment | Value
+var - keyword telling how to store data
+test - reference of the value on how to store your data
+= - saying something is another thing
+8 - value stored in Variable
+var test = 8;
+
+Variavle Types:
+Var - basic choice, not used much since let
+Let - main choice able to be changed. local so used where declared.
+Const - only used if you the value NEVER changes
+
+DECLARE a varible before use, aka say what this word does. EX. let x, var score, const check
+declaring reverses word for use later to a specific reference
+Camel case examples - var thisIsAVariableName, cheeseBurger
+NO SPACES
+no reserved words, stuff computer already has defined
+must start with a letter, and other certain characters
+CASE SENSITIVE
+have vars make sense
+EQUAL SIGN (=) IS NOT AN EQUAL SIGN, IT MEANS ITS AN ASSIGNMENT OPERATOR. IT ASSIGNS
+
+Assignment Operator:
+let x = 65;
+var score = aler();
+const check = false;
+place vlaues into variables
+x doesnt literally mean 65
+initialzation is a starting value, which is done with an assignment operator
+x is the A NAME FOR 65
+score is A NAME FOR alert()
+check is A NAME FORE false
+variables have one value, and one answer
+
+Multiple Assignments:
+You can declare multiple vars
+can also do one at a time
+Declare
+let a, b, c;
+var x, y, z;
+Initialize
+a = x = c = 54
+b = y = z = 4
+they dont need to be assigned together or have the same keyword declaration
+alert(b); //3
+alert(x); //54
+
+Reassignment:
+can assign multiple vars
+when values change they are reassigned
+let a, b, c;
+a, b, c, = 5;
+a = 9; // a = 9
+b = b + 3; // b = 8
+c = b - 2; // c = 10
+b = a; // b = 9
+
+Special Operators:
+some shortcuts
+Incremental operator - increase/decrease by one
+let a = 2, b = 4, c = 1;
+alert(a++); //increases by one
+alert(--b); //decreases by one
+modify and assign shorthand - does the operation before assignment and then reassigns it the the same var
+c += 4;
+alert(c); //c = 5 (think c = c + 5)
+a *=2 ;
+alert(a) //a = 6 (think a = a * 2)
+
+Data Types:
+Number(int) - includes any number less than 9007199254740991
+BigInt - even bigger
+String - something in quotes ", ', or `
+Boolean - true or false check value, different from "true"
+Null - unrepresented value
+Undefined - unassigned value
+typeof(), typeof - checks what type of data
+
+== - checks value, ignores type of
+=== - also checks type of
+Object.is(obj1, obj2) - same as ===, besides NaN and +0/-0
+
+String Concatenation:
+Every language has its quirks
++ is concatenation operator combines strings into a larger string
+All other math operators aren't and can't be used as strings
+Can also add other thing into strings.
+
+Type Conversion:
+Convert any data type to any type
+String(), NUmber(), Boolean
+Math in strings will automatically convert
+Concatenation of numbers with a string, will then make it all a string
+
+String Conversions:
+everything is converted to a string
+String(null) = "null"
+String(true) = "true"
+String(84) = "84"
+
+Numeric Conversion:
+Number(true) = 1, Number(false) = 0
+Number("4526") = 4526
+Number(null) = 0
+Number("") = 0
+Anything else gives you NaN (Not a Number)
+
+Boolean Conversion:
+Boolean() - converts anything into true or false
+Any "empty" value gives false. 0, "0", "", NaN, undefined, null, etc.
+All other values give true. "Hello", 1, "1", 1234, etc.
+
+Math Operators:
++ - Addition
+- - Subtract
+* - Multiply
+/ - Division
+** - Exponential
+% - Remainder
+2**3 // 8 (two to the power of 3)
+8**(1/3) // 2 (cube root 8)
+4%2 // 0 (4/2 = 2R0), 0 left over
+5%3 // 2 (5/3 = 1R2), 2 left over
+PEMDAS is used in code
+
+Advanced Math Operations:
+Math. - Does math
+Math.PI - PI
+Math.SQRT - Find square root
+Math.SQRT2 // Funds square root of 2
+
+Backtick:
+3 ways to set up strings:
+Quotes ("")
+Apostrophes ('')
+Backticks (``)
+Template literals work like concatenation.
+Instead of remembering all the " and +, just separate them with ${}
+Ex. "My anme is " + name " and my age is " + age";
+`My name is ${name} and my age is ${age}`;
+
+Node.js:
+JS compiler, no browser, debug, industry standard
+Test code
+Needed for coding in JS
+node [JS FILE] // Runs node with JS file

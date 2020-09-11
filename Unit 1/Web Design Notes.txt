@@ -1,0 +1,11 @@
+- Draw it out, plan out what you are going to do in your mind.
+- Write it down, list everything you are going to do and your goals.
+- Create a design, create a flowchart and other charts for plans.
+- White space, break up code into smaller portions for better readability.
+- Strong variable names that have clear meanings.
+- Comments in your code to describe.
+- Learn from your mistakes.
+- The most difficult thing is to start.
+- Fix one problem at a time.
+- Google is the best.
+- Everything is on the internet.

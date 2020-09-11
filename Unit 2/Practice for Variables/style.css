@@ -1,0 +1,14 @@
+body{
+    background-color: darkslategrey;
+}
+
+header{
+    font-size: 3em;
+    font-family: fantasy;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: monospace;
+}

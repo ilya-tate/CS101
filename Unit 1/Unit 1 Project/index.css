@@ -1,0 +1,24 @@
+html{
+    color: red;
+    background-color: black;
+    height: 100%;
+}
+
+body{
+    color: blueviolet;
+    margin: 10%;
+    background-color: white;
+    height: 80%;
+    font-family: 'Coming Soon', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+p{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}

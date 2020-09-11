@@ -1,0 +1,33 @@
+- Battle.net, Dashlane, Discord, Steam, GitKraken, Chrome,
+Java Server, Teams, Minecraft, Notepad, Synapse, Slack, Spotify,
+Surfshark, TS3, Zoom
+- 4x 8Gb @ 3200 Mhz
+- Windows 10 64 bit
+
+CPU:
+Cores: 8
+Multi-Threading: Yes
+Clock Speed: 3.4 Ghz
+l3 Cache: 16mb
+
+
+- Each CORE can do one math problem at one time.
+- Each THREAD is like another processor inside of a CORE.
+- THREADS are label per CORE.
+- Clock speed is billion cycles/sec for each GHZ. 3GHz = 3 billion cycles/sec
+- Bottlenecks may still occur.
+- 3 levels of CHACHE.
+- L1 a per core. splits in 2. smallest. current workload
+- L2 1 per core. doesnt share. upcoming data.
+- L3 1 per cpu. slowest. part of the cpu that communicates with the ram
+- RAM storing cahcing info on where its being sent. short term.
+- Frequency is similarto clock speed.
+- HDD and SSD are storage.
+- HDDs get fragmented and need ot be defragged. never do this on an SSD
+- HDDs read a disk. and are mechanical
+- SSDs read on and off switches, will last longer than an HDD
+- HDDs use power whenever on
+- Expansion cards, gpu, sound card, network card, interface card
+- Mobo, everything goes on it
+- Input: give info to comp. mouse, keyboard, mic, etc.
+- Output: info from pc. monitor, printer, headphones, etc.
