@@ -1,74 +1,48 @@
-let valDec = 34;
+let decimal = prompt("What is the your number.")
 
 
-let hexa1 = Math.floor(valDec % 16);
-let hexa1Rem1 = valDec % 16;
-let hexa1Rem2 = Math.floor(hexa1 % 16)
+remainder1 = decimal % 16
+remainder2 = Math.floor(decimal / 16) % 16
 
-
-console.log(hexa1)
-
-if(hexa1 == 10) {
-    hexa1 = "A";
+if(remainder1 == 10){
+    remainder1 = "A"
 }
-if(hexa1 == 11) {
-    hexa1 = "B";
+if(remainder1 == 11){
+    remainder1 = "B"
 }
-if(hexa1 == 12) {
-    hexa1 = "C";
+if(remainder1 == 12){
+    remainder1 = "C"
 }
-if(hexa1 == 13) {
-    hexa1 = "D";
+if(remainder1 == 13){
+    remainder1 = "D"
 }
-if(hexa1 == 14) {
-    hexa1 = "E";
+if(remainder1 == 14){
+    remainder1 = "E"
 }
-if(hexa1 == 15) {
-    hexa1 = "F";
+if(remainder1 == 15){
+    remainder1 = "F"
 }
 
-
-// if(hex2 == 10) {
-//     hex2 = "A";
-// }
-// if(hex2 == 11) {
-//     hex2 = "B";
-// }
-// if(hex2 == 12) {
-//     hex2 = "C";
-// }
-// if(hex2 == 13) {
-//     hex2 = "D";
-// }
-// if(hex2 == 14) {
-//     hex2 = "E";
-// }
-// if(hex2 == 15) {
-//     hex2 = "F";
-// }
-
-console.log(`Hexadecimal Value: ${hexa1}`)
-
-
-
-
-
-let dec = 157;
-
-let bin8
-let bin7
-let bin6
-let bin5
-let bin4
-let bin3
-let bin2
-let bin1
-
-if(dec >= 128) {
-    dec -= 128;
-    bin8 = 1;
-} else {
-    bin8 = 0
+if(remainder2 == 10){
+    remainder2 = "A"
 }
-if(dec >= 64)
-console.log(`${bin8}`)
+if(remainder2 == 11){
+    remainder2 = "B"
+}
+if(remainder2 == 12){
+    remainder2 = "C"
+}
+if(remainder2 == 13){
+    remainder2 = "D"
+}
+if(remainder2 == 14){
+    remainder2 = "E"
+}
+if(remainder2 == 15){
+    remainder2 = "F"
+}
+if(remainder2 == 0){
+    remainder2 = ""
+}
+
+    console.log(`${remainder2}${remainder1}`)
