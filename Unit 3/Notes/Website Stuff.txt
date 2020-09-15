@@ -1,0 +1,47 @@
+Big 3:
+HTML
+CSS
+JS
+All three of these are needed to create webpages.
+
+
+Website House:
+- 1st HTML is the foundation of the house. everything else is built around this
+- JS is the electrical and plumbing stuff you don't see. makes everything functional
+- CSS is the painting and furniture. attracts users. does not have to do with functionality, makes everything looks better
+
+
+Elements:
+Anything in HTML is done with elements
+
+3 Parts -
+Opening Tag
+Content - What is visible usually
+Closing Tag
+Ex. <p>This is text.</p>
+HTML is not case sensitive.
+ELements are not magic, they just tell the computer what to display.
+Each browser has their own default style sheet.
+You can create any element you want, it just may not change the text unless you edit it.
+
+Nesting Elements - 
+Nesting elements are the same as putting 1 element inside another, most recently opened should be closed first and done in order
+Ex. <p>Coding is <em>really</em> fun</p>
+
+When you add nested elements over a longer area, make sure they're indented, like any normal programming language
+
+Empty Elements -
+Elements without closing tags, such as img
+Ex. <img src="https://www.reallycoolimages.com/images/cool-picture-1234567/">
+
+Attributes -
+Attributes are addition to the opening tag that gives extra information or extra stuff to do
+You can use as many attributes as needed
+Most require and use "="
+Should have a space between name of the tag and attribute, but not between the name and value
+Should be in quotes
+Ex. <p class="editor-note">My cat is very grumpy</p>
+A tag is an empty element which means anchor, allows you to add links
+<a href="URL"> // Lets you link a website to you page
+<a title="title"> // Show a subtitle when you hover over the link
+<a target="_blank"> // Will open in a new tabif you want to display the linked content in the current tab, you may leave this out
