@@ -45,3 +45,57 @@ A tag is an empty element which means anchor, allows you to add links
 <a href="URL"> // Lets you link a website to you page
 <a title="title"> // Show a subtitle when you hover over the link
 <a target="_blank"> // Will open in a new tabif you want to display the linked content in the current tab, you may leave this out
+Boolean attributes are attributes with only one value, such as "disabled"
+Ex. <input type="text" disabled="disabled">This cat is very grumpy. </input>
+<input type="text" disabled=>iThis cat is very grumpy. </input>
+<!DOCTYPE HTML> - Relic of the past, defines as html doc
+<html> - Element of the page, and is the base element
+<head> - Hold meta data, stuff user doesnt explicitly see
+<meta charset="UTF-8"> - required, but don't change, universal translation for human languages
+<body> - contains all visible content to user. text, images, videos, games, etc.
+
+Head Breakdown -
+3 recommended parts of head:
+<head>
+Language: UTF-8
+Title
+Link to CSS
+Ex.
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+Meta -
+Meta name and content
+Lots of things that can be done with the name and content
+2 important ones are:
+    author - <meta name="author" content="Ilya Tate">
+    description - <meta name="description" content="Epic Gamer">
+name = author
+content = "yourname"
+
+name = description
+content = "What is your site about?"
+
+Descriptions are what pop up on Google
+
+Open Graph Data:
+New thing created by Facebook. gives a breif snippet of the site when you hover over a link
+<meta property="og:image" content="URL to an image">
+<meta property="og:description" content="short description about your page">
+<meta property="og:title" content="Title">
+
+Link Tags:
+Favicon - Little pictures at the top left. // <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="relation" href="filename" type="image">
+rel - relationship to stylepage, icon, etc.
+href - hyperlink reference, can be url or file name
+type - usually not required but defines it
+
+<html lang="en"> - Makes sure language is english for google translation and stuff
+
+Span - certain part is a different language
+<span lang="en"></span>
