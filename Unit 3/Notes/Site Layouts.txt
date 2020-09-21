@@ -1,0 +1,7 @@
+- Centrally located search bar
+- Side nav bar on left
+- Account login at top right
+- Main page that can get you to most other pages
+- Suggested topics filling up much of page
+- Language settings on the top
+- Top bar with multiple important functions

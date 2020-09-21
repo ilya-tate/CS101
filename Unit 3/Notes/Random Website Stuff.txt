@@ -1,0 +1,121 @@
+Desc. List:
+- Used to create a list with a small description
+
+Ex.
+<dl>
+    <dt>Red</dt>
+    <dd>This means stop</dd>
+    <dt>Yellow</dt>
+    <dd>This means slow down</dd>
+</dl>
+
+
+
+Links:
+- In order to create a clickable link you need an <a> (anchor) tag
+
+Ex.
+<a href="West-MEC.org">the West-MEC homepage</a>
+
+
+Email Links:
+- Create link that opens an email
+- Default mailer is outlook on PC
+- Create href add the mailto:quilifier
+- Advenced email links can have %20 which is unicode for space, can do cc, bcc, subject, and body
+
+Ex.
+<a href-"mailto:itate265@west-mec.org">Send me an email.</a>
+
+
+
+Abreviations:
+- When you do abreviations, use abbr
+- This tells someone using this is short for something
+
+Ex.
+<abbr title="Text">Text</abbr>
+
+
+
+Addresses:
+- The <address> tag is used to distinguish that your listing address information
+
+Ex.
+<address>
+    <p>
+        Text
+    </p>
+</address>
+
+
+
+Superscripts and Subscripts:
+- If you want to use superscripts <sup></sup> and subscripts <sub></sub>
+
+
+
+Coding in HTML:
+<code> - Formats your text to look like code font
+<pre> - Retains whitespace, useful for indents when coding
+<var> - Signifies something as variable name
+<kbd> - For makingkeyboard inputs
+<samp> - For marking the output of a computer program
+
+
+
+Times and Dates:
+<time datetime="">
+- There are TONS of things you can put in this tag
+Ex.
+<time datetime="2016-01-20">20 January 2016</time>
+<time datetime="19:30">19:30</time>
+<time datetime="19:30:01.856">19:30;01.856</time>
+<time datetime="2016-WO4">Fourth weed of 2016</time>
+
+
+
+Header:
+- Large strip at the top of a page
+- Includes logo, search bar, name, motto, etc.
+- Usually has the most colors and sets the theme for the rest
+
+
+
+Navigation Bar:
+- Smaller bar under the header
+- Where all the palces on the website are nicely organized
+- Should be consistent across the entire site
+- Sometimes in header, however usually should be separate for readability
+
+
+
+Article:
+- Main content of the page
+- Usually center of the page and takes up most of the space
+- Differs greatly depending on what your website is
+
+
+
+Sidebar:
+- Referred to as the <aside> tag an appears at the edge of the screen
+- Runs along side the article
+- Holds related links and conent
+- Usually different colors and font
+
+
+
+Footer:
+- Small strip at the bottom
+- Contains copywrite, names, adresses, etc.
+- Usually smaller print and is an afterthaught
+- Footer can be used as SEO (Search Engine Optimization)
+
+
+
+Tags for the Parts:
+<header> - Header
+<nav> - Navigation Bar
+<article>, <main>, <section>, and <div> - Main
+<aside> and <div> - Sidebar
+<footer> - Footer`
