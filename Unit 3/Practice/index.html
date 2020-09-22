@@ -13,27 +13,48 @@
         <link rel="shortcut icon" href="" type="image/x-icon">
     </head>
     <body>
-        <code>
-            <pre>
-    var para = document.querySelector('p');
-    para.onclick = function() { 
-    alert('Owww, stop poking me!'); 
-    }
-            </pre>
-        </code>
-
         <p>
-            You shouldn't use presentational elements like <code>&lt;font&gt;</code> and <code>&lt;center&gt;</code>.<br>
-            In the above JavaScript example, <var>para</var> represents a paragraph element.<br>
-            Select all the text with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.
+            &Iopf;&lopf;&yopf;&aopf;<br>
+            &Icy;&lcy;&softcy;&yacy;
         </p>
 
-        <code>
-            <pre>
-    $ ping mozilla.org 
-    <samp>PING mozilla.org (63.245.215.20): 56 data bytes 64 bytes from 63.245.215.20:
-    icmp_seq=0 ttl=40 time=158.233 ms</samp>
-            </pre>
-        </code>
+
+        <br><hr><br>
+
+
+        <form action="data.json" method="POST">
+            <fieldset>
+                <ul style="list-style-type: none;">
+                <legend>User Questionnaire</legend>
+                    <li><label for="dob">Date of Birth mm/dd/yyyy</label></li>
+                    <li><input type="text" id="dob" name="user.dob"></li><br>
+
+                    <li><label for="comments">Pease write a comment about your stay:</label><br></li>
+                    <li><textarea name="user.comments" id="comments" cols="25" rows="25 "></textarea></li>
+                    <li><button type="submit">Submit your questionnaire.</button></li><br>
+
+                    <li><label for="image">Please submit a .jpeg of your face.</label></li>
+                    <li><input type="file" accept="image/jpeg" id="image" name="user.image"></li><br>
+
+                    <li><label for="toppings">What pizza toppings do you want (choose four)?</label></li>
+                    <li><input type="checkbox" value="cheese" id="toppings" name="user.toppings.cheese">Cheese</input></li>
+                    <li><input type="checkbox" value="pepperoni" id="toppings" name="user.toppings.pepperoni">Pepperoni</input></li>
+                    <li><input type="checkbox" value="sausage" id="toppings" name="user.toppings.sausage">Sausage</input></li>
+                    <li><input type="checkbox" value="ham" id="toppings" name="user.toppings.ham">Ham</input></li><br>
+
+                    <li><label for="password">Enter Password:</label></li>
+                    <li><input type="password" id="password" name="user.password"></input></li><br>
+
+                    <li><label for="drinks">Select your beverage:</label></li>
+                    <li><input type="radio" id="drinks" name="user.drinks.coke">Coca-Cola</input></li>
+                    <li><input type="radio" id="drinks" name="user.drinks.fanta">Fanta</input></li>
+                    <li><input type="radio" id="drinks" name="user.drinks.sprite">Sprite</input></li><br>
+
+
+                    <br><br>
+                    <li><button type="reset" value="reset" disabled>Reset</button></li>
+                </ul>
+            </fieldset>
+        </form>
     </body>
 </html>
