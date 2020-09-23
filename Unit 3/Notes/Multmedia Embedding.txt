@@ -1,0 +1,27 @@
+Images:
+<img src=URL> - How you post a picture that is assoicated with that address.
+- URL can also be a file in your directory if you have it downloaded and saved.
+Ex.
+<img src="image/face.png">
+
+- When you are defining images you should also define and laternate text that will display in case the image breaks, gets corrupted, etc.
+alt="description" - Img attribute that tell description
+- Reads out for screen reader
+
+- You should define the width and length for images.
+- This can be a percent of the page (but is bad because of phones), or a flat amount which is better, but if you don't define it then you formatting will look bad.
+width="" height="" - Attributes to define width and height in img.
+
+- Images also need titles, a short description that the user will only see when they hover over it.
+title="description" - When you hover over it.
+
+
+Backround Images:
+- You can also add backround images using CSS
+- This can also be done with inline style tags.
+Ex.
+<style>
+    html {
+        backround-image: url(face.png);
+    }
+</style>
