@@ -25,3 +25,45 @@ Ex.
         backround-image: url(face.png);
     }
 </style>
+
+
+
+Video:
+<video> - Tag that allows you to add a video to your page.
+- Just like images and anything else is uses the src="" attribute.
+Ex.
+<video src="../Unit 3/Video-and_audio-Samples/rabbit320.mp4"></video>
+
+- Videos are different from images becausewe need to start, stop , pause, rewind etc.
+- In order to control videos, use the control attribute.
+Ex.
+<video src="video.mp4" controls></video>
+
+- When creating videos you may add text in case it breaks.
+- Use the <p> tag and give an error such as saying you browser can't handle it and a link to the video.
+Ex.
+<video src="../Unit 3/Video-and_audio-Samples/rabbit320.mp4" controls>
+    <p>
+        If your browser does not support HTML5 video please follow the link.
+        <a href="/Video-and_audio-Samples/rabbit320.mp4">Link to the video</a>
+    </p>
+</video>
+
+- Different devices and browser have different compatibilities.
+<source> - Because of this we use the <source> tag for an alternative.
+
+Attibutes for Video Tag:
+width="" height="" - Same as with image.
+autoplay - Plays video when page loads.
+loop - Keeps repeating video.
+muted - Video loads without sound.
+poser="URL" - Loads and image at the start of the vide, like a thumbnail.
+
+Last Attributes:
+preload="none" - This does not buffer the video.
+preload="auto" - Buffers the media file, ahead of time.
+preload="metadata" - Buffers only the metadata for the file (not very useful for videos).
+
+
+Audio:
+- Audio does not support height, width, and posters, but the rest is pretty much the same as video.
