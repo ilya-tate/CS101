@@ -99,3 +99,36 @@ type - usually not required but defines it
 
 Span - certain part is a different language
 <span lang="en"></span>
+
+Why we use tags:
+    Changes the word to a specific style/
+    Ex. <span style="font-size: 32px; margin; 21px 0; display; block;">
+Text Layout -
+    Layout of info matters
+    Proper use of headers and pargraphs
+    Proper layout makes the reading experience more enjoyable
+
+Headers -
+    <h1 - h6>
+    Predefined styles, h1 is the most important and largest. h6 is the smallest and least important
+
+Text Sections -
+    <p> - Paragraph. basic text
+    <aside> - Text for side navs or ads, usually contain <p> tags
+    <article> - Used for main block of the paper. usually contains <p> tags
+
+List -
+    <ol> - ordered list, numbers 1, 2, 3
+    <ul> - Unordered list, not order, stuff like bullet points
+
+Special Stuff -
+    <i> - Italics, but has since been deprecated
+    <en> - Emphasis
+    <b> - bold
+    <strong> - use this one instead of bold usually
+    <u style="text-decoration-line: underline">Underline</u> - In the past we used <u> tp underline, but that has been deprecated
+
+Github Pages -
+    Free way to publish a site
+    Github hosts a small site
+    You have to use a Github address and is a static web site that people can visit
