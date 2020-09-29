@@ -46,7 +46,7 @@ A tag is an empty element which means anchor, allows you to add links
 <a title="title"> // Show a subtitle when you hover over the link
 <a target="_blank"> // Will open in a new tabif you want to display the linked content in the current tab, you may leave this out
 Boolean attributes are attributes with only one value, such as "disabled"
-Ex. <input type="text" disabled="disabled">This cat is very grumpy. </input>
+Ex. <input type="text" disabled="disabled">This cat is very grumpy.</input>
 <input type="text" disabled=>iThis cat is very grumpy. </input>
 <!DOCTYPE HTML> - Relic of the past, defines as html doc
 <html> - Element of the page, and is the base element

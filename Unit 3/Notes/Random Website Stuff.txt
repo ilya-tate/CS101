@@ -118,4 +118,102 @@ Tags for the Parts:
 <nav> - Navigation Bar
 <article>, <main>, <section>, and <div> - Main
 <aside> and <div> - Sidebar
-<footer> - Footer`
+<footer> - Footer
+
+
+
+Non-Specific Tags:
+- There are two tags that you can use for anything (not that you should).
+
+<div> - Tag should be used when you want to declare a special class or id in the code.
+Ex.
+<div id="copywrite">(c) Copywrite. All Rights Reserved</div>
+
+<span> - Used for similar small changed that you want to apply within the text.
+Ex.
+<p>
+    <span style="font-szie: larger;">text</span>
+</p>
+
+
+
+Horizontal Rules:
+- Can add a line across your page that will help section things off.
+- Great way to separate.
+<hr> - Horizontal Rule
+
+
+
+Unicode:
+- Unicode is the reserved code that the computer has for symbols and text.
+- Use &#; and the Unicode (# only for numbers).
+Ex.
+&128516 = 'Smiley Emoji'
+
+
+
+Web Forms:
+- Web forms are the most basic way to collect information from a user.
+- Allow users to enter data thatallows the coder to format it, qualify what to go where.
+- Normally this is sent to server to be stored.
+
+
+Form Element:
+<form> - To create this you neec 2 attributes avery time.
+action="URL" - THis defines where the forms colleced data should be stored when it is submitted.
+method="" - THis defines which HTTP method to send the data wtih, usually equals "GET" or "POST".
+
+
+Label Element:
+<label> - When creating form inputs it is good (but not needed) to include labels on all of your form inputs.
+- The label will have a for attribute that will associate it with an id attribute in the prompt.
+- This should be where you add the header for the input area.
+Ex.
+<label for="name">Name:</label>
+
+
+
+Input Element:
+- The input elemtn will create a small line where you are able to input code.
+
+Attributes:
+id="" - This is the same as the for in the label.
+type="" - This has a few values but should match the expected input.
+name="" - How it will be stored when submitted.
+Ex.
+<label for"name">Name:</label>
+<input type="text" id="name" name="user.name"></input>
+
+
+
+Textarea:
+- This will create a large are that someon can enter in paragraphs or longer messages
+
+Required Attributes:
+id="" - matches the for
+name="" - That is unique for the input
+Non-Required Attributes:
+cols="#" rows="#" - will increase the size of the box
+
+Ex.
+<label for="body">Message:</label>
+<textarea name="user.message" id="body" cols="30" rows="10"></textarea>
+
+
+
+Buttons:
+<button> - This will create a small button on the page tha tthe user can interact with.
+-Attribute we care about right now:
+type="" - can be submit, reset, or button
+Submit will send the information to the action attribute of the form element.
+Ex.
+<li class="button">
+    <button type="submit">Submit Your Work</button>
+</li>
+
+
+
+Fieldset and Legend:
+- When creating any kind of widget on HtML (like a form) you should always use fieldset and legend.
+<fieldset> - Signifies the contenet between will be in a single group.
+<legend> - Titles the fieldset and helps screen readers.
