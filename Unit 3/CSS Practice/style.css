@@ -1,0 +1,57 @@
+a[href="https://www.google.com/"] {
+    color: red;
+}
+
+a[href="https://www.wikipedia.com/"] {
+    color: grey;
+}
+
+a[href="https://www.w3schools.com/"] {
+    color: limegreen;
+}
+
+a[href="https://www.mdn.com/"] {
+    color: lightblue;
+}
+
+a[href="https://www.github.com/"] {
+    color: green;
+}
+
+a {
+    display: inline-block;
+}
+
+a[href]::first-letter {
+    display: block;
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+a[href]::after {
+    content: ".com";
+}
+
+a[href="https://www.google.com/"]:visited {
+    color: red;
+}
+
+a[href="https://www.wikipedia.com/"]:visited {
+    color: grey;
+}
+
+a[href="https://www.w3schools.com/"]:visited {
+    color: limegreen;
+}
+
+a[href="https://www.mdn.com/"]:visited {
+    color: lightblue;
+}
+
+a[href="https://www.github.com/"]:visited {
+    color: green;
+}
+
+a[href]:hover {
+    text-decoration: none;
+}

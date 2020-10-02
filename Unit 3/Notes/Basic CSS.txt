@@ -1,0 +1,342 @@
+Intro to CSS:
+- When a websitre loads it does things in a specific order.
+- Parses HTML first.
+- Them creates a DOM.
+- Then applies the CSS to the finished DOM.
+
+
+The DOM:
+- The Document Object Model is kind of like a tree with branches
+Ex.
+<p>
+    Let's use:
+    <span>Cascading</span>
+    <span>Style</span>
+    <span>Sheets</span>
+</p>
+
+
+Applying CSS to the DOM:
+- When creating the CSS selector it will look through the tree.
+- Then find the part of the tree that matches the selector, changing the style for that part
+Ex.
+span {
+    border: 1px solid black;
+    backround-color: lime;
+}
+
+
+- Will not just break when you mess up, it'll move on.
+- It will skip the wrong commands and since it does not match a branch on your DOM.
+- CSS only modifies existing code.
+
+
+Ways to Add CSS:
+External - Making the CSS file.
+Internal - Using the <style> element in HTML.
+Inline - Using the style attribute.
+
+
+Specificity:
+.special - Recificity refers to how specific you want your selector.
+- More specific is taken.
+
+
+Order:
+- Two selectors with the same specificity, the 2nd one is used.
+- Newest one always overrides.
+
+
+
+CSS Rulesets:
+- The thinfs that you put inside the selector curly brackets are called properties and values.
+- Put these all together and you get a rulest.
+
+
+
+Definitions:
+CSS Selector - Chooses DOM element.
+CSS Property - Changes a part of it.
+CSS Value - States hwo the property should change.
+CSS Declaration - When a property is paired with a value.
+CSS Declaration Block - When several properties are paired with several values.
+
+
+
+Functions:
+- CSS usually just works in somple values and units, but there is a way to do functions using calc
+Ex.
+width: calc(90% - 60px);
+
+
+transform: translate(1px, -2px); - Right 1 pixel, Down 2 pixels
+transform: rotate(90deg); - Rotates 90 degrees
+transform: scale(2); - 2 times as big
+transform: skew(20deg, 40deg); - Skews it in those directions
+transform: matrix(1, 2, 3);
+Ex. transform: scale(2) rotate(90deg);
+
+
+@rules:
+- 2 @rules that you will need to know
+@import - Not used very much but loads a different CSS sheet into yours, great way to load a preset style into your HTML.
+@media - Shows which styles should be shown when a certain value is met.
+
+
+
+Shorthand Properties:
+- There are some properties that can cover multiple properties in one.
+Ex.
+padding 10px 15px 20px 25px - top, right, bottom, left
+
+
+
+Comments:
+- Different in every language.
+- Ctrl + / makes a comment
+<!-- --> - HTML
+/**/ - CSS
+// - JS
+- Use comments as needed
+- They will be needed
+
+
+
+White Space:
+- You can use all the white space you want around the properties.
+- Insisde the properties and rulesets of CSS, be careful.
+- White space makes a difference in CSS unlike JS and other languages.
+
+
+
+Selectors:
+- The words at the start of CSS are called selectors. They tell the DOM where the different styles will be applied.
+- Normally your selectors can simply be the element that you want to change.
+Ex.
+p{}, h1{}, a{}
+
+
+
+Classes and IDs:
+- You will want to choose speific elements from time to time.
+- To do this use IDs which are defined in HTML and used in CSS.
+
+- Class is a property in HTML which can mark consistent theme in your HTML.
+- A class should be used if you need to change more than one time or isn't specific, it should be a class.
+- You can edit a class in CSS using a ".".
+
+- IDs are like classes in that they modify an element making it easier to call out in CSS.
+- IDs should be used in a very specific change, should be unique or it should be a class.
+- Call IDs by using "#" in the CSS
+]
+
+
+
+Universal Selector:
+- If you want to select everythin on the page you use "*".
+- If you want to remove the margins and padding from everything to remove the margins and padding from everything then use:
+* {
+    margin: 0; padding: 0;
+}
+- This had very low specificity and will be overwritten by everything.
+
+
+
+Attribute Selectors:
+- You can use selectors tha will affect an element based on what attribute it has or if the atribute has a specific vlaue for that attribute.
+Ex.
+a {color: blue;}
+a[href] {color: purple;}
+a[href="west-mec.org] {color: orange;}
+
+
+
+Pseudo-Classes and Pseudo-Elements:
+- Some elements hav properties tha we can't see or they have events that can also affect the style.
+Ex.
+a:hover {
+    color: red;
+}
+
+- For instance if you hover over a link you can change th style or if the link has been visited before.
+Ex.
+a:visited {
+    color: blue;
+}
+
+- Pseudo elements can interact with th elements in an HTML, for instance if you want to change the first eltter of every paragraph tag you can do that.
+Ex.
+p::first-letter {
+    font-size: larger;
+    font-family: fantasy;
+}
+
+
+
+Combinators:
+- If you wnat to effect any paragrpag in the article elements you use a space.
+Ex.
+article p {
+    color: blue;
+}
+- If you wnat to only effect paragraphs that are DIRECT children of the article you use ">".
+Ex.
+article > p {
+    color: blue;
+}
+
+
+
+Box:
+- Has 4 parts: content, padding, border, margin
+- Can see these parts in the dev tools.
+
+
+
+Block and Inline Boxes:
+- Defining a box as a block if will have the following properties:
+    - The box will <br> into a new line.0
+    - Boxes will extend its width and height to fill the container.
+    - Width and height properties are respected.
+    - Padding, margins, and borders will cause other elements to be pushed away from the box.
+
+- When a box is defined as inline then it will have the following properties:
+    - The box will not break onto a new line.
+    - The width and height properties will not apply.
+    - Vertical padding, margins, and borders will apply but not cause other inline .boxes to move away from the box.
+    - Horizontal ones will apply and will cuase other inline boxes to move away from the box.
+
+
+display: inline - Does not break the container.
+display: block - Is default and breaks most container elements.
+display: grid - Grid works like a grid, it creates a grid pattern on the page anc you can fill in the cells. Block style be default with more format options.
+display: flex - Flexbos is one of the newest display types that is becoming the standard. Works like block but with different formatting options.
+
+
+
+Display Grid Parent Properties:
+display: grid; - Gives you a block-level grid.
+display: inline-grid; - Gives you an inline-level grid.
+- Typically you want to stick with block-level grid.
+
+
+Grid Templates:
+grid-template-columns - Defines the columns of the grid with space-separated values.
+grid-template-rows - Defines the rows of the grid with space-sparated values.
+- The values represent each cell's width and the spaces can be thought of as the dividing grid lines.
+
+You cant name them by adding [name].
+Ex.
+grid-template-columns: [first] 40px [line2] 50px auto [col4-start col3-end] 50px [five 40px [end];
+- When you don't name them they are just given numbered names.
+
+repeat() function - There is a shortcut id you want to create several columns or rows.
+Ex.
+container {
+    grid-template-columns: repeat(3, 20px [col-start]);
+}
+
+#% - Percent. Fills a given percentage of the container.
+#px - Pixels. Creates a fixed box of a given size.
+auto - Auto. Fills the remaining space of the container.
+#fr - Fractions. Fills the content based on a fraction of total fractions's declared.
+
+Fractions - Free space to be divided up by the fractions will be calculated AFTER the non-flexible items.
+
+
+Grid Areas:
+Step 1 -
+    You can create grid-areas with name and defined grid cells.
+    First name you areas using classes or elements.
+    Ex.
+    .item-1 {
+        grid-area: header;
+    }
+
+Grid Template Areas -
+    You can divide out the cells of the grid to make areas.
+    "name" - Represents a grid item.
+    . - Represents an empty cell.
+    None - Represents no grid area definition.
+    Ex.
+    grid-template-areas: " | . | none | ...";
+
+Step 2 -
+    Once you have you item you can then use it to create the grid layout.
+    Everytime you sau the name, a new cell is reseverd for that grid area.
+    Ex.
+    grid-template-areas: "header header header";
+
+Grid Gap -
+    This only creates spaces between the areas in the grid, it will not have a gap netween the areas and the container.
+    If you only say 1 it will change both.
+    Ex.
+    gap: [row gap] [col gap];
+    gap: 10px 20px;
+    gap 10px;
+
+
+
+Justify-Items:
+- There are 4 values for this.
+start - Aligns items to be flush with the starting edge of their cell.
+end - Aligns items to be flush with the end edge of their cell.
+center - Aligns items to be flush with the center of their cell.
+stretch - Fills the whole width of the cell.
+
+
+Align-Tems:
+- Justify is left and right, align is up and down.
+- It has the same 4 values as justify and they're basically the same but top and bottom.
+
+
+Justify-Content:
+- Justify Content also works similarly, but affects the container instead of the grid cells it has 3 new values.
+    space-around - Splits the remaining space evenly around the grid items.
+    space-between - Splits the space remaining evenly between the grid items.
+    space-evenly - All space around the items wil be the same.
+
+    justify-content: start
+    justify-content: stretch
+    justify-content: space-between
+    justify-content: space-evenly
+
+
+Align-Content:
+- Sometimes therr is extra space around the grid in the container which can happen when you use non-flexible units like px.
+- This will reposition the entire grid inside of the grid baserd on the value. Theya re all the same values as justify-content.
+
+start
+endcenter
+stretch
+space-around
+space-between
+
+
+
+Grid Column/Rows:
+- You can position your items based on the grid rows without using grid-template-areas.
+- If you just use grid-column: and grid-row: stating the starting and eending lines.
+Ex.
+grid-column: 2 / 3;
+grid-row: start / end;
+
+
+grid-auto-columns/rows:
+- If items are places outside of the grid some messy stuff can happen.
+- We can adjust for this by creating auto columns/rows.
+- This will tell your code hwo to fill in the extra space that you didn't plan for.
+
+grid-auto - Same thiing this time using
+Ex.
+grid-auto-column: 60px;
+
+
+Wrapping it all together:
+you can use the shorthadn "grid:"
+grid-template-rows
+grid-template-columns
+grid-template-areas
+grid-auto-rows
+grid-auto-columns
+grid-auto-flow
