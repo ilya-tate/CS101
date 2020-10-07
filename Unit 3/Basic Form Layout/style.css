@@ -1,0 +1,59 @@
+/* GENERSL FORM SETUP */
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: white;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* Form settings */
+
+form {
+    margin: 0 auto;
+    width: 400px;
+
+    /* form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    /* uniform size & alignment */
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+
+.button {
+    /* align buttons with text fields */
+    /* needs to be same size as label elements */
+    padding-left: 90px;
+}
+
+button {
+    /* represents roughly same space as space between label and their text fields */
+    margin-left: .5em;
+}
