@@ -43,7 +43,7 @@ form li+li {
 label {
     /* uniform size & alignment */
     display: inline-block;
-    width: 90%;
+    width: 90px;
     text-align: right;
 }
 
@@ -56,4 +56,29 @@ label {
 button {
     /* represents roughly same space as space between label and their text fields */
     margin-left: .5em;
+}
+
+input, textarea {
+    /* to make sure all text fields have same default font */
+    /* textareas have Monospave */
+    font: 1em sans-serif;
+
+    /* uniform text field sizes */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* match form borders */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: black;
+}
+
+textarea {
+    /* align multilign text fields */
+    vertical-align: top;
+
+    /* provide space to type text */
+    height: 5em;
 }
