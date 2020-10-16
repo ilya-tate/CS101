@@ -1,3 +1,4 @@
+/* Base Styles */
 :root {
     --color-base: hsl(49, 66%, 83%);
     --color-text: #1c1707;
@@ -20,6 +21,14 @@ body {
     line-height: 1;
 }
 
+ul li {
+    margin-bottom: 25px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -35,6 +44,23 @@ body {
     "footer footer footer";
 }
 
+
+/* Generic Typography / Styles */
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Specific Styles */
+
+/* Header Specific Styles */
 .header {
     align-items: baseline;
     border-bottom: var(--border);
@@ -45,7 +71,26 @@ body {
     justify-content: center;
     padding: 1rem;
 }
+.header .header-name {
+    margin-right: auto;
+    order: 1;
+    text-transform: uppercase;
+}
+.header .header-logo {
+    order: 2;
+}
+.header .header-address {
+    order: 3;
+    margin-left: auto;
+}
+.header .header-no {
+    order: 4;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
 
+/* Starters Styles - 2nd top row all the way across */
 .starters {
     border-bottom: var(--border);
     display: grid;
@@ -53,7 +98,27 @@ body {
     grid-column: 1 / -1;
     grid-template-columns: repeat(7, 1fr);
 }
+.starters header {
+    display: none;
+}
+.starters article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.starters article+article {
+    border-left: var(--border);
+}
+.starters .description {
+    flex-grow: 1;
+    margin-top: 1rem;
+}
+.starters .price {
+    margin-top: 1rem;
+}
 
+/* Slogan Styles - Middle left of screen */
 .slogan {
     grid-area: aside;
     align-items: center;
@@ -62,9 +127,17 @@ body {
     grid-column: 1 / 2;
     justify-content: space-between;
     padding: 1rem;
-    writing-mode: sideways-lr;
+    writing-mode: vertical-rl;
+}
+.slogan p {
+    font-size: 2rem;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto 0;
 }
 
+/* Specific Mains Style - Middle */
 .mains {
     border-bottom: var(--border);
     border-left: var(--border);
@@ -72,7 +145,45 @@ body {
     grid-column: 2 / -2;
     padding: 2rem 1rem;
 }
+.mains header {
+    display: none;
+}
+.mains article {
+    display: flex;
+    align-items: center;
+}
+.mains article+article {
+    margin-top: 1rem;
+}
+.mains .title{
+    flex-shrink: 0;
+    font-size: 2rem;
+}
+.mains .description {
+    flex-grow: 1;
+    line-height: 1.1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-height: 2.5rem;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.mains .description::after {
+    border-bottom: 2px dotted var(--color-text);
+    bottom: 0.5rem;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    right: 0;
+    width: 100%;
+}
+.mains .description span {
+    background-color: var(--color-base);
+    padding-right: 0.5rem;
+    z-index: 1;
+}
 
+/* Specific Soup Styles */
 .soups {
     border-bottom: var(--border);
     border-left: var(--border);
@@ -80,4 +191,64 @@ body {
     grid-column: -2 / -1;
     padding: 2rem 1rem;
     text-align: center;
+}
+.soups header {
+    text-transform: uppercase;
+}
+.soups ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.soups li span {
+    background-color: var(--color-base);
+    padding-right: 0.5rem;
+    z-index: 1;
+}
+.soups li::after {
+    border-bottom: 2px dotted var(--color-text);
+    bottom: 3px;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.soups li span:last-child {
+    padding-left: 0.5;
+    padding-right: 0;
+}
+.soups article {
+    margin-top: 1rem;
+}
+
+/* Specific CHarcuterie Styles */
+.charcuterie {
+    grid-area: charcuterie;
+    grid-column: 1 / 5;
+    padding: 1rem;
+    border-bottom: var(--border);
+}
+
+/* Specifc Sides Style */
+.sides {
+    border-bottom: var(--border);
+    border-left: var(--border);
+    grid-area: sides;
+    grid-column: 5 / -1;
+    padding: 1rem;
+}
+
+/* Specific Footer - Across the bottom */
+.footer {
+    display: flex;
+    padding: 1rem;
+    grid-area: footer;
+    grid-column: 1 / -1;
+    justify-content: space-between;
+}
+.footer .bar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
