@@ -1,0 +1,17 @@
+.float1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+}
+
+.float2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 10px;
+    float: right;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+.flex-container {
+    padding: o;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+}
+
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+.nowrap li {
+    background: gold;
+}
+
+.wrap {
+    flex-wrap: nowrap;
+}
+.wrap li {
+    background: silver;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+.wrap-reverse li {
+    background: chocolate;
+}
+
+
+.flex-item {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+
+    line-height: 100px;
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+}

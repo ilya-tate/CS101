@@ -340,3 +340,179 @@ grid-template-areas
 grid-auto-rows
 grid-auto-columns
 grid-auto-flow
+
+
+
+Flexbox:
+
+Container Properties:
+- The following will be properties that you can apply to the container of the flexbox.
+- We call the container the Flex Container.
+https://gyazo.com/d0843639d11142880af0fcfa698b8ca2
+
+
+display: flex; - Just like with display: gid if you wnat to use the properties associated with a certain type of display, you need to the declare the display type first.
+- There is only display: inline-flex; but we don't use that one.
+
+
+Grid vs. Flexbox:
+- Grid focuses on the vells and laying out the grid before.
+- Flecbox instead focuses on the items in the container, they aren't cells like in grid.
+- Items in the container and treated similarly to the cells but they have a lot more flexibility and are not locked into the grid cells.
+
+
+flex-direction; - The first thing you need to decide with felx is which direction the overflowing will happen.
+https://gyazo.com/18dd9c9228dd1b2e915010c8c220a4ba
+https://gyazo.com/cb505fec4ee5810c85e592da31095cd6
+row (default)
+row-reverse
+column
+column-reverse
+
+
+flex-wrap; - By default items will try to fit all on one line but you can change that as needed.
+https://gyazo.com/e3918afa790676c4d1e3f5fdde69135b
+nowrap (default)
+wrap
+wrap-reverse
+
+
+jusify-content; - It is important to say which way the flex items should be sligned within the container along the main axis (horizontal for flex-direction: row or vertical for column)
+https://gyazo.com/ed33e4c30d7537dd8d287bcaa9642246
+
+
+align-items; - This works simililarly t othe box model and positions the items vertically in the container.
+- There is a new value called baseline, this will move every item so that the text in the items are aligned.
+https://gyazo.com/d892ed62042adfc7cd5b0bb5d4f6b8d8
+
+
+align-content; - This algins the flex container's lines between the items.
+- This property doesn't do anything if there are not multiple line of items in the container.
+https://gyazo.com/7e7786577809d36b6a9294022bcc6085
+
+
+Item Properties:
+- These are the properties that you add to the flex items.
+- These should be place directly on the items that you want to affect.
+
+Order:
+- The order properties will allow you to change the placement of your items inside of your container.
+- This is if you wnat ot reorder your items when the screen reaches a certain size.
+https://gyazo.com/0b68da05bdbbf3de2db0c880c8c943f4
+
+
+flex-basis; - This defines the default size of an elemeq before hte remaining psace is distributed.
+- It can be any length (20%, 5rem, etc.).
+- The auto keyword mean that the item will fill in the remaining space if possible.
+- If set to 0 the space around the content is not factoed in. If set to auto, the extra spcae is distributed based on it's flex-grow value.
+https://gyazo.com/82a181a695e5b7fb94419f0f0fffd05f
+
+
+flex-grow; - This defines the ability  for a flex item to grow if necesssary.
+- If all items are set to 1 then they will try to divide the remaining space.
+- If on of the them is set to 2 then that item wil ltake up twice as much of the remaining space if possible.
+https://gyazo.com/964e0dca3af5dc9a7ae0657d8ffc09cb
+
+
+flex-shrink; - This defines the ability for a flex item to shrink necessary.
+- Negative values are invalid.
+https://gyazo.com/b99373a76962bdca839c5d75ea934e5b
+
+
+align-self; - This allows the default alignment (specified by align-items) to be overwridden for individual flex-items
+- These have the same 6 keywords as the align-items property.
+https://gyazo.com/528622b99c48817af7f7e869fa4bd3ae
+
+
+
+Floats:
+- Allos web devs to implement simple layouts involving and image floating inside a column of text.
+- Floats have been used to vreate entire website layouts featuring multiple columns of information floated so they sit alongside one another.
+
+float; - The float property is the way that you can move your items around the page and have the rest of the content move around them.
+none - default, element does not float
+left - element floats to the left of its container
+right - element floats to the right of its container
+Ex.
+.float {
+    float: right;
+}
+
+
+Clearing Floats:
+- When you use floats the element will move othe elements out of the way and they will wrap around the floated object.
+- If you want to stop the next element from moving up and filling in the space you use the clear property.
+- you can clear space around the float items to get rif of content that you don't want near it.
+
+clear: left; - Clears items floated to the left.
+clear: right; - Clears items floated to the right.
+clear: both; - Clears items floated to the, left or right.
+
+
+Container Collapse:
+- Common issue with floats.
+- Since the square had float: left; it is taken out of the .wrapper container which causes the blue square to "collapse".
+https://gyazo.com/014fb3738fb206edc9fdb012bd6c0f1d
+
+
+Clearfix Hack:
+- Common way to fix container collapse.
+- Type the following into any container that had collapsed and it will be fixed:
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+- Also works with display: block;
+
+
+Overflow Property:
+- You may also instead add the overflow: auto; property to the container and solve it that way, but people won't be as impressed if you fo it this way:
+.container {
+    background-color: rg(79, 185, 227);
+    padding: 10px;
+    color: #fff;
+    overflow: auto;
+}
+
+
+
+Poisitioning:
+- Allows you to place elements and objects awher you wnat and override the setting the default style sheet gives.
+- Just use the position property.
+
+
+poisition: static; - The default setting and will place the element on order with the rest of the web page.
+- No reason to use it since it won't move anything and can leave it blank when you want this positioning.
+
+
+position: relative; - Allows you to move your element/object around the page relative to where it should be placed.
+top - Pushes it on the top and move it down.
+left - Pushses it on the left and move it right.
+bottom - Pushes it on the bottom and move it up.
+right - Pushes it on the right and move it left.
+
+
+position: absolute; - This removed the element from the rest of the document and the flow of the elements.
+- Instead of posiitions within the rest of the document and the flow it will instead be moved to the top left of the page no matter what is in the way.
+
+
+z-index; - Layering your content in top of each other is not always easy wen you are dealing wwith posiition.
+- To make sure the correct element is showing on top layer we can use z-index.
+- The higher the number the better.
+
+
+position: fixed; - Works similarlyto the absolute positioning, it will move the element to the top left of the page and remove it from the list ofelements in the document.
+- The difference is that th efixed will move with the screen when you scroll.
+
+
+position: sticky; - The value of sticky is amic between fixed and relative.
+- It will be placed inline with the rest of the elements like relative positioning.
+- The difference is when you scroll past it, the element will be "stuck" to the top of the screen and scroll fown with you.
+
+
+
+SVG (Scalable Vector Graphics):
+- These are used to create icons, backgrounds, images, and sometimes while logos.
+- The benefit of SVG over PNG or JPEG is the fact that they use pixels and SVG uses math equations so you can zoom in and it won't look bad.
+- They aren't hard to make and there are lots of free sites to make them.
