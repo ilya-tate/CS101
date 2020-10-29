@@ -30,16 +30,45 @@
 // if(age >= 18) console.log('Adult');
 
 
-let check = true;
+// let check = true;
 
-if(check) console.log(`It was true`);
-if("") console.log(`This is false`); // Will print nothing because false
+// if(check) console.log(`It was true`);
+// if("") console.log(`This is false`); // Will print nothing because false
 
-if("whatever") console.log(`This is true`);
-if(0) console.log(`This is falsy`);
+// if("whatever") console.log(`This is true`);
+// if(0) console.log(`This is falsy`);
 
-if(check) {
-    console.log(`It was true;`);
-} else {
-    console.log(`It was false`);
+// if(check) {
+//     console.log(`It was true;`);
+// } else {
+//     console.log(`It was false`);
+// }
+
+
+let questionFirst = prompt('True or False: null == undefined').toLowerCase();
+let questionSecond = prompt('True or False: null === undefined').toLowerCase();
+let questionThird = prompt('What is the first letter of the alphabet?').toLowerCase();
+let questionFourth = prompt('What is the last letter of the alphabet?').toLowerCase();
+let questionFifth = prompt('True or False: 0 == 0').toLowerCase();
+
+let score = 0;
+
+if(questionFirst = true) {
+    score++;
 }
+if(questionSecond = false) {
+    score++;
+}
+if(questionThird = 'a') {
+    score++;
+}
+if(questionFourth = 'z') {
+    score++;
+}
+if(questionFifth = true) {
+    score++;
+}
+
+console.log(score)
+
+console.log(`You score is ${score}/5`);
