@@ -1,0 +1,66 @@
+The Comparers:
+== - Checks the 2 values after converting everything to strings
+=== - CHecks the 2 values without converting
+object.is() - Checks the 2 values without handling + or - or NaN
+
+Comparisons:
+- When comparing two things you always will get either true or false.
+- You need to tell the computer what the 2 things are that need to be compared and then how to compare them.
+Ex.
+    alert(2 == 2); // true
+
+Number Comparisons:
+- You compare numbers just like math and it's either true or false.
+Ex.
+    alert(5 > 5); // false
+    alert(4 <= 5); // true
+
+String Comparisons:
+- Are checked left or right and they are judged in alphabetical order.
+- "A" is less than "B" since "B" is later in the alphabet
+- "West" is less than "Went"
+    "W" is equal
+    "e" is equal
+    "s" is less than "n"
+- When comparing strings in the unicode is checked and seen to be greater or less not the actual letters.
+- When creating the unicode dictionary uppercase were letters were added first.
+- "a" is greater than "A"
+.toLowerCase() - If you want to check closely you can use this
+
+
+Conditional Branching
+
+The "if" Statement:
+- This "if" statement is used to check a conditional statement
+- It will either be "true" and proceed to, or "false" and skips
+- The conditional is placed in the parameteres of the if statement
+
+The Many Forms of "if":
+- The standard form of "if" is as follows:
+    if (conditional == true) {
+        console.log('it was true');
+    }
+- If you want to execute 1 thing you can write it in a single line:
+    if(year == 200) console.log('uh-oh');
+- The "if" statement will always try t odo a boolean conversion before checking
+- For example, a string is always true unless it's empty. This is called being "falsy"
+Ex.
+    ""
+    Undefined
+    NaN
+    Null
+    0
+- You can also place a value into the conditional ather than a companion and it will still work if the boolean conversion outputs a true.
+
+The "else" Condition:
+- You an defone something "else" to happen in case the value is false
+- This will happen no matte what if the condiition is false so it doesn't require a condition. It shares the other of the "if" conditional.
+Ex.
+    if(check) {
+        console.log(`It was true;`);
+    } else {
+        console.log(`It was false`);
+    }
+
+"else if" Condition:
+- If you want have several cascading checks through if statements you can use "else if" and create a second condition to check before failing.
