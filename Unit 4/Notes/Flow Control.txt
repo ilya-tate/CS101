@@ -64,3 +64,72 @@ Ex.
 
 "else if" Condition:
 - If you want have several cascading checks through if statements you can use "else if" and create a second condition to check before failing.
+
+"?" Ternary Operator:
+- If you want to create a small "if else" conditional then you can use the conditional operator "?" and the else with a ":"
+Ex.
+    let result = (condition) ? value1 : value2;
+    let canDrink = (age >= 21) ? true : false;
+- If you want to use multiple conditional operators as in "else if" then you can use multiple "?". BUT DON'T DO THIS
+Ex.
+    let letterGrade = (grade > 90) ? 'A' :
+        (grade > 80) ? 'B' :
+        (grade > 70) ? 'C' :
+        (grade > 60) ? 'D' :
+        'F';
+
+Switch Conditions:
+- Enter a parameter and then list cases for what to expect.
+- The last statement should be "default" as a catch all in  case none of the cases are mat
+- It runs through all values unless you use "break" and skips to the end
+Ex.
+    switch(param) {
+        case "walk":
+            // Your code here
+            break;
+        case "sleep":
+            // Your code here
+        case "dream":
+            // Your code here
+            break;
+        default:
+            // Your code here
+    }
+
+    switch(true) { // Will always run
+        case (myVal >= 10):
+            multiplier = 2;
+            break;
+        default:
+            // Your code here
+    }
+
+
+Logical operators
+- Ways of checking more than 1 thing (operand) at once.
+- If these were not used you would have to create several "if" statements within each other and keep checking if they're true.
+- Now you can check 2 or more conditions in the same parameter
+
+OR "||" Operator:
+- OR is the logical operator that will return true if 1 or more of the values are true.
+- ORs will go trhough and check if anything is true, if something is then it will run.
+Ex.
+    alert(true || true); // true
+
+AND "&&" Operator:
+- Uses 2 ampersands (&&)
+- Similar to OR operator, but requires all the be truthy to run
+- Computer will run through every condition in the parameter and exit the conditional as soon as a falsy operand appears, if none appear then it will continue.
+Ex.
+    if(tvOn && radioOn && computerOn) {
+        // See if all three are on
+        alert('You are using too much power');
+    }
+
+NOT "!" Operator:
+- Just "!" and can be put in front of an equal sign or an operand
+- Takes the truthy or falsy value of the operand and return the opposite value.
+Ex.
+    if(gas != 0 && (!mapMissing || !noDirections)) {
+        alert('The road trip is on!')
+    }

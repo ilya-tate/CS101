@@ -75,3 +75,81 @@
 // // Gets percentage score
 
 // console.log(`You score is ${score}%`);
+
+
+// if(name = "pam") {
+//     console.log(`Cool`);
+// } else {
+//     console.log(`Not so cool`);
+// }
+
+// let coolness = (name = 'Pam') ? 'Cool' : 'Not so cool';
+// console.log(`${coolness}`);
+
+
+// let result = (a + b < 4) ? 'Below' : 'Over';
+
+
+// switch(login) {
+//     case 'Employee':
+//         message = 'Hello';
+//         break;
+//     case 'Director':
+//         message = 'Greetings';
+//         break;
+//     case '':
+//         mesage = 'No login';
+//         break;
+//     default:
+//         message = '';
+// }
+
+
+// if(shirt = 'blue' || shirt == 'red' || shirt == 'green' || shirt == 'pink') {
+//     alert("Lookin' good");
+// }
+
+
+// let open;
+
+// if(time <= 9 || time >= 17 || weekdays == false) {
+//     open = false;
+// } else {
+//     open = true;
+// }
+
+
+// Tells you if you need to fix your car
+// Flat tire, check engine light on, or if 30,0000+ miles
+
+// let flatTire = false;
+// let checkEngine = true;
+// let mileage = 50321;
+
+// if(flatTire == true || checkEngine == true || mileage >= 30000) {
+//     console.log('Your car needs to be fixed');
+// }
+
+
+// let pen = true;
+// let paper = false;
+// let mouse = false;
+// let keyboard = true;
+
+// if((pen && paper) || (mouse && keyboard)) {
+//     alert('You can take notes');
+// } else {
+//     alert('You need stuff to take notes with');
+// }
+
+
+let upLate = true;
+let tooManyGames = true;
+let study = false;
+let skipBreakfast = false;
+
+if(wakeUpLate != false && tooManyGames != false && study == true && skipBreakfast != true) {
+    alert('You can pass the test');
+} else {
+    alert('Good luck buddy')
+}
