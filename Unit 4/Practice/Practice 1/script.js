@@ -143,13 +143,79 @@
 // }
 
 
-let upLate = true;
-let tooManyGames = true;
-let study = false;
-let skipBreakfast = false;
+// let upLate = true;
+// let tooManyGames = true;
+// let study = false;
+// let skipBreakfast = false;
 
-if(wakeUpLate != false && tooManyGames != false && study == true && skipBreakfast != true) {
-    alert('You can pass the test');
-} else {
-    alert('Good luck buddy')
+// if(wakeUpLate != false && tooManyGames != false && study == true && skipBreakfast != true) {
+//     alert('You can pass the test');
+// } else {
+//     alert('Good luck buddy');
+// }
+
+
+// for(let i = 5; i <= 13; i += 2) {
+//     console.log(i);
+// }
+
+// for(let i = 0; i <= 5; i++) {
+//     console.log(2 * i + 5);
+// }
+
+
+// for(let i = 5; i <= 11; i++) {
+//     console.log(i);
+// }
+
+// for(let i = 1; i <= 9; i++) {
+//     console.log("This is nice");
+// }
+
+// for(let i = 11; i >= 1; i -= 2) {
+//     console.log(i);
+// }
+
+
+// let val =`${Math.round(Math.random() * 100)}`;
+// for(let i = 1; i <= 4; i++) {
+//     val = `${Math.round(Math.random(i) * 100)}, ` + val;
+// }
+// console.log(val);
+
+
+// let sum = 0;
+// let amt = 0;
+
+// while(true) {
+//     let val = +prompt(`Enter a test score:`, `Leave blank if done`);
+//     if(!val) break;
+//     sum += val;
+//     amt++;
+// }
+
+// let avg = sum / amt;
+// let grade = '';
+
+// if(avg >= 90) {
+//     grade = 'A';
+// } else if(avg >= 80) {
+//     grade = 'B';
+// } else if(avg >= 70) {
+//     grade = 'C';
+// } else if(avg >= 60) {
+//     grade = 'D';
+// } else {
+//     grade = 'F';
+// }
+
+// console.log(`Sum: ${sum}`);
+// console.log(`Amount: ${amt}`);
+// console.log(`Average ${avg}`);
+// console.log(`Grade: ${grade}`);
+
+
+for(let i = 0; i < 50; i++) {
+    if(i % 5 == 0) continue;
+    console.log(i);
 }

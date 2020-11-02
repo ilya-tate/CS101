@@ -28,7 +28,7 @@ String Comparisons:
 .toLowerCase() - If you want to check closely you can use this
 
 
-Conditional Branching
+CONDITIONAL BRANCHING
 
 The "if" Statement:
 - This "if" statement is used to check a conditional statement
@@ -132,4 +132,123 @@ NOT "!" Operator:
 Ex.
     if(gas != 0 && (!mapMissing || !noDirections)) {
         alert('The road trip is on!')
+    }
+
+"nullish" Coalescing Operator:
+- Newest and doesn't work on browsers that aren't updated
+- Checks to see if the value is null or undefined, if it is then you can define a default value.
+- Called a "nullish" value
+Ex.
+    if(value !== null && value != undefined) {
+        return value;
+    } else {
+        return "This is undefined";
+    }
+
+Chaining the Operators:
+- You can check several things in a row and it will reurn the frist non nullish value.
+- Too new to be tested in node
+Ex.
+    let a = null;
+    let b = undefined;
+    let c = '';
+    let d = "This is the last thing";
+    console.log(a ?? b ?? c ?? d); // ''
+
+- You can use || but the difference is that any "falsy" value will be skipped and not just nullish.
+- So it will skip '', 0s, and false
+Ex.
+    let a = null;
+    let b = undefined;
+    let c = '';
+    let d = "This is the last thing";
+    console.log(a ?? b ?? c ?? d); // "This is the last thing"
+
+
+LOOPS
+- Loops are made up of 3 parameters, separated by semicolons -
+    Starting value for loop at
+    Conditions to be met for the loop to end
+    How should your value change by every time the loop ends
+
+Order:
+1. hecks the condition, if true continue, if false exit
+2. Run the code in the body
+3. Increase by the increment (called stop) and repeat
+
+Basic "for" Loop:
+- Normally start will 1 as starting value
+- Initial value needs to be stored in a variable since it will be changing throughout duration of code.
+- To d othis we create a new variable, usually i (for increment) and set it equal to 1
+Ex.
+for(let i = 1);
+- You then need to place in a condition, varies depending on what you want but now can create on that will happen 2 times.
+- As long as i is less than 3 this example will run the loop
+Ex.
+for(let i = 1; i < 3);
+- Will go up a set amount of time
+- Most common way is to go up 1 at a time and the best way to do that is with the incremental operator, i++
+- Lastly, add some code to run in the body that will happen for each loop execution
+- Usually it will involve the i value since it will be changing so use it as an example.
+Ex.
+for(let i = 1; i < 3; i++) {
+    console.log(`This has happened ${i} times`);
+}
+- If the starting value is initialized before, you do not have to declare is in the for loop
+- Isn't normal and can lead to confusion if your variables are not correctly named.
+Ex.
+    let i = 0; // Already have i declared and assigned
+    for(; i < 3; i++) { // No need for "begin"
+        console.log(i); // 0, 1, 2
+    }
+- You can also skip the step portion if you are stepping it inside the loop
+- Not recommended to do either as it can be confusing,, but sometimes you eed to step by different values depending on an if statement.
+Ex.
+- Definitely don't do this
+- Has no beginning, exit, or end and will repeat forever
+Ex.
+for (;;) {
+    // Repeats without limits
+}
+
+"while" Loops:
+- While loops will keep running until the condition returns falsy.
+- Similar to for loop but the difference comes in the parameters.
+- ONLY declare the condiiton, not the start or step
+- Eve n though you don't declare the inital and the step you normally use them anyway.
+Ex.
+    let i = 0;
+    while(i < 3) { // Shows 0, then 1, then 2
+        console.log(i);
+        i++;
+    }
+- Since while loops end on falsy values you can end on a 0 without extra code
+Ex.
+let i = 0;
+while(i) {
+    alert(i);
+    i--;
+}
+// When i become 0, the condition becomes falsy and stop the loop
+
+"do while" Loop:
+- Checks the condition to make sure it works and then move on to the body
+- In while loops, there's a chance the condition fails immedietly and the loop never runs
+- Do while loops were created to avoid this. Acts just as a while loop, but checks the condition at the end meaning it will always run at least once.
+Ex.
+let i = 0;
+do {
+    console.log(i);
+    i++;
+} while(i < 3);
+
+"break" the Loop:
+- You can stop the loop at any point by using the "break;" statement.
+
+"continue":
+- The continue statement is used to skip the rest of the code in the body, but not exit the loop instead of jumping to the next step.
+Ex.
+    for(let i = 0; i < 50; i++) {
+        if(i % 5 == 0) continue;
+        console.log(i);
     }
