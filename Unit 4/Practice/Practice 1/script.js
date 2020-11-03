@@ -215,7 +215,79 @@
 // console.log(`Grade: ${grade}`);
 
 
-for(let i = 0; i < 50; i++) {
-    if(i % 5 == 0) continue;
-    console.log(i);
-}
+// main:
+// for(let i = 0; i < 50; i++) {
+//     if(i % 5 == 0) continue main;
+//     console.log(i);
+// }
+
+
+// var i, j;
+
+// loopOuter:
+// for(i = 0; i < 3; i++) {
+//     loopInner:
+//     for(j=0; j < 3; j++) {
+//         if(i == j) {
+//             continue loopOuter;
+//         } else {
+//             console.log(`i = ${i}, j = ${j}`);
+//         }
+//     }
+// }
+
+
+// let num1 = 0,
+//     num2 = 0,
+//     num3 = 0,
+//     num4 = 0,
+//     num5 = 0,
+//     num6 = 0;
+
+// num1 = Math.floor(Math.random() * 10 + 1);
+// num2 = Math.ceil(Math.random() * 10);
+// while(true) {
+//     if(num1 == num2) {
+//         num2 = Math.ceil(Math.random() * 10);
+//     } else {
+//         break;
+//     }
+// }
+
+// num3 = Math.ceil(Math.random() * 10);
+// while(true) {
+//     if(num3 == num1 || num3 == num2) {
+//         num3 = Math.ceil(Math.random() * 10);
+//     } else {
+//         break;
+//     }
+// }
+
+// num4 = Math.ceil(Math.random() * 10);
+// while(true) {
+//     if(num4 == num1 || num4 == num2 || num4 == num3) {
+//         num4 = Math.ceil(Math.random() * 10);
+//     } else {
+//         break;
+//     }
+// }
+
+// num5 = Math.ceil(Math.random() * 10);
+// while(true) {
+//     if(num5 == num1 || num5 == num2 || num5 == num3 || num5 == num4) {
+//         num5 = Math.ceil(Math.random() * 10);
+//     } else {
+//         break;
+//     }
+// }
+
+// num6 = Math.ceil(Math.random() * 10);
+// while(true) {
+//     if(num6 == num1 || num6 == num2 || num6 == num3 || num6 == num4 || num6 == num5) {
+//         num6 = Math.ceil(Math.random() * 10);
+//     } else {
+//         break;
+//     }
+// }
+
+// console.log(`${num1}, ${num2}, ${num3}, ${num4}, ${num5}, ${num6}`);

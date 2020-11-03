@@ -252,3 +252,24 @@ Ex.
         if(i % 5 == 0) continue;
         console.log(i);
     }
+
+Labeling Loops:
+- You are able to name loops by giving labels with "main:" as an example
+- Importand when createing a complicatied system of nested loops
+- Only affects loops in your nest, and cannot move a loop
+
+"switch" Statements:
+- Switch statement is used to replace multiple checks.
+- Will run all subsequent cases if a break is not used.
+Ex.
+    swtich(x) {
+        case 'value1':
+        // if (x === 'value1')
+        . . .
+        break;
+        case 'value2':
+        // if (x === 'value2')
+        . . .
+        break;
+        default:
+    }
