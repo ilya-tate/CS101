@@ -52,15 +52,22 @@
 
 // 5.
 
-let prime;
-for(let val = 1; val <= 100; val++) {}
-    for( i = 2; i < val; i++) {
-        if(val % i != 0) {
-            console.log(String(val));
+let prime = '';
+for(let val = 1; val < 100; val++) {
+    if(val == 1) {
+        prime += '1, ';
+        continue;
+    } else if(val == 2) {
+        prime += '2, ';
+    }
+
+    for(i = 2; i < val; i++) {
+        if(val % i == 0) {
             break;
         } else {
-            prime = false;
+            prime += val + ', ';
             break;
         }
     }
 }
+console.log(prime);
