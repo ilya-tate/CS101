@@ -291,3 +291,53 @@
 // }
 
 // console.log(`${num1}, ${num2}, ${num3}, ${num4}, ${num5}, ${num6}`);
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+// let box1 = [1, 2, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 22, 23, 25, 27, 29];
+// let box2 = [2, 3, 6, 7, 10, 11, 14, 15, 18, 19, 22, 23, 26, 27, 30, 31];
+// let box3 = [4, 5, 6, 7, 12, 13, 14, 15, 20, 21, 22, 23, 28, 29, 30, 31];
+// let box4 = [8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 28, 29, 30, 31];
+// let box5 = [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+
+// input = 19;
+// let containInput = [0, 0, 0, 0];
+
+//     for(let i = 0; i < 32; i++) {
+//         if(input == box1[i]) {
+//             containInput[0] = 1;
+//         }
+
+//         if(input == box2[i]) {
+//             containInput[1] = 1;
+//         }
+
+//         if(input == box3[i]) {
+//             containInput[2] = 1;
+//         }
+
+//         if(input == box4[i]) {
+//             containInput[3] = 1;
+//         }
+
+//         if(input == box5[i]) {
+//             containInput[4] = 1;
+//         }
+//     }
+
+// console.log(`${containInput[0]} ${containInput[1]} ${containInput[2]} ${containInput[3]} ${containInput[4]}`);
+
+
+let arrMusic = ['jazz', 'blues'];
+
+arrMusic.push('R&B');
+
+if(arrMusic.length % 2 != 0) {
+    arrMusic[Math.floor(arrMusic.length / 2)] = 'classic';
+}
+
+arrMusic.unshift('rap', 'acapella');
+
+console.log(arrMusic);

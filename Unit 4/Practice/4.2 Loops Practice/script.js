@@ -159,7 +159,13 @@
 
 let input = 8;
 let line = '';
-for(let i = 0; i <= 8; i++) {
+let int = 0;
+
+for(let i = 0; i <= input; i++) {
+    for(let n = 0; n <= input; n++) {
+        int = (1 - i);
+        line += int + '';
+    }
     line += ' ' + i;
+    console.log(line);
 }
-console.log(line)

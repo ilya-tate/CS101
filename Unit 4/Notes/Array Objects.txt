@@ -1,0 +1,80 @@
+Introduction to Array Objects:
+- Arrays alow you to create 1 object that can hold many values in a row.
+- These values are numbered to keep track of them starting with the number 0.
+- THese are so important because they come with a collection of methods to modify them.
+
+Creating Arrays:
+- There are 2 ways to initialize a new array.
+    let array = []; // More common, use this method
+    let array = new Array();
+- The second one derives from Java and requires you to create a new array object.
+- The second way is faster and used in js.
+
+Adding Values to Arrays:
+- An array can be added to by using brackets and commas.
+Ex.
+    array = ['red', 'yellow', 'blue'];
+- These values are referenced using the array name and their position in the array.
+Ex.
+    array[0]; // 'red'
+    array[1]; // 'yellow'
+    array[2]; // 'blue'
+
+Assigning Values:
+- At any point you are able to define a specific value inside of the array.
+Ex.
+    array[2] = 'blue';
+
+Checking the Array:
+- You can show the entire array
+Ex.
+    console.log(array); // ['red', 'yellow', 'blue'];
+
+"Array.Length":
+- A common way to use loops with arrays
+- Includes going through every value in your array and modifying it
+- To find out how long you array is, you use the method "array.length"
+Ex.
+    array = ['red', 'yellow', 'blue'];
+    console.log(array.length); // 3
+
+Methods:
+array.push(); - Adds item to then end of the array
+array.pop(); - Takes element away from the end of the array
+array.shift(); - Takes element away from the front of the array
+array.unshift(); - Takes element to the front of the array
+
+Efficient Code:
+- When working with arrays, or anything that happens over and over, it is always important to consider efficiency.
+- With array "array.shift();" is extremely inefficient and gets slower the more items you have in the array.
+- For this reason you should always try to use push and pop as much as possible, only use shift if its unavoidable.
+
+"array.length":
+- "array.length" is a value 1 than the highest indes. This is always true without any exceptions
+- You can overwrite the array.length and it will remove overflow items
+Ex.
+    array = ['red', 'yellow', 'blue'];
+    array.length = 2;
+    console.log(array); // ['red', 'orange']
+
+Looping Through the Array:
+- A few ways to loop through every item in an array
+for(let i = 0; i < array.length; i++) {} // Standard way of going through. This is effective
+- for(let item of array) {} // This is the modern way
+- for(let i in array) {} // Don't use this, it can only use numerical values
+- While doing this you will use "i" as the index value which will allow you to access every single value.
+Ex.
+    for(let i = 0; i < array.length; i++) {
+        array[i] *= 3;
+    }
+    // If you want to increase all of the values in the array by 3x
+
+"array.split" Method:
+- Takes any string input you have and breaks it up every time it sees the string in the parameters and creates an array using all of the created parts.
+Ex.
+    let str = "This is Sparta";
+    str = str.split('s');
+    consolg.log(str);
+
+    "Thi's' i's' 's'parta"
+    ['thi', ' i', ' ', 'parta']
