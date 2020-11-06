@@ -157,15 +157,15 @@
 
 // 12.
 
-let input = 8;
-let line = '';
-let int = 0;
+// let input = 8;
+// let line = '';
+// let int = 0;
 
-for(let i = 0; i <= input; i++) {
-    for(let n = 0; n <= input; n++) {
-        int = (1 - i);
-        line += int + '';
-    }
-    line += ' ' + i;
-    console.log(line);
-}
+// for(let i = 0; i <= input; i++) {
+//     for(let n = 0; n <= input; n++) {
+//         int = Math.abs((n - i));
+//         line += int + ' ';
+//     }
+//     console.log(line);
+//     line = '';
+// }
