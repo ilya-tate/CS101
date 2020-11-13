@@ -1,0 +1,120 @@
+Intro to Functions:
+- Small but of code that can be called and ran at any point
+- If you are going to use a bit of code all over you can create a function.
+- They also accept parameters and will always feturn always 1 value
+
+Layout of a Functions:
+1. Function keyword: "function"
+2. Name of function: "functionName"
+3. The paramaters of the function
+4. Body that holds the code.
+Ex.
+    function functionName(parameters) {
+        // Function Body
+    }
+
+Calling a Function:
+- Once created, you can call it antime with the name and parameter.
+Ex.
+    functionName(parametes);
+
+Parameters:
+- Unlike other code, you can use a variable that is yet to be declared by passing through the parameters.
+- This lets you accept many different inputs that can be used to change the outcome of your function.
+Ex.
+    function showMessage(from, text) {
+        alert(from + ': ') + text;
+    }
+    showMessage('Ann', 'Hello!'); // Ann: Hello!
+
+"onClick":
+- Incorporates into your website
+- Allows you to call a function into HTML to run code on a button click
+Ex.
+<button onlcick="fucntionName()">Click me</button>
+
+
+Local Variables:
+- If a variable is in a function then the variable is local, and can only be accessed within that funciton.
+- This is seen wiht "i" in loops and can be reused without conflict
+- Can use the same variable between different functions
+
+Global Variables:
+- Exist ourside of functions, and can be used and modified by all functions
+- Can modify inside of functions and saved
+
+Default Values:
+- When creating parameters you can set them equal to something to make suer ther is a default value.
+- If nothing is entered in the parameters they will still have an input
+Ex.
+    function showMessage(from, text = "No text given") {
+        console.log(from + ": " + text);
+    }
+    showMessage("Ann"); // Ann: No text given
+
+Returing a Value:
+- Can add "return" to say what a function is equal to.
+- Only 1 return
+- Instantly ends\
+
+Proper Function Naming:
+- Need to use proper and uniform verbs
+"getFunction" - Returns a value
+"calcFunction" - Calculate something
+"createFunction" - Calculate something
+"checkFunction" - Checks and returns a boolean
+
+
+Commenting:
+- Functions do something, you needs to make short comments
+- Usually lots of functions and you must have comments due to short names
+- You may want to split functions into many smaller functions
+
+
+Function Expression:
+- When you create your function inside of a "variable" of sorts
+Ex.
+    function sayHi(name, text) {
+        console.log(sayHi (name, text));
+    }
+    let sayHi = function(name, text) {
+        console.log(sayHi(name, text));
+    }
+
+
+Expression vs. Declaration:
+Expression - Doesn't have hoisting, but can be created and forgotten afte use, saving your computer some brain power
+Declaration - Has something called 'hoisting', meaning that is can be use dbefore it is created
+
+
+Arrow Functions:
+- Nicer way to write function expressions
+- Not more or less efficient, just take up less space
+- Use whichever way is more comfortable
+Ex.
+    let sum = function(a, b) {
+        return a + b;
+    }
+    // Same as
+    let sum = (a, b) => a + b;
+
+    let double = function(n) {
+        return n * 2;
+    }
+    // Same as
+    let double = n => n * 2;
+
+Multi-Line Arrow Functions:
+- Can also use for multiple lines
+Ex.
+    let sum = (a, b) => {
+        let result = a + b;
+        return result;
+    }
+    console.log(sum(3, 5));
+
+
+"use strict":
+- Every JS file should start with the phrase "use strict";
+- This makes sure the js code uses the modern versions for behavior and not the outdated older version, called "compatibility" versions
+- Won't break the cdoe but if you ever want to turn JS into an OOP instead of an OBP language, this is how you do it.

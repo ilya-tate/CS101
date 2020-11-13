@@ -330,14 +330,76 @@
 // console.log(`${containInput[0]} ${containInput[1]} ${containInput[2]} ${containInput[3]} ${containInput[4]}`);
 
 
-let arrMusic = ['jazz', 'blues'];
+// let arrMusic = ['jazz', 'blues'];
 
-arrMusic.push('R&B');
+// arrMusic.push('R&B');
 
-if(arrMusic.length % 2 != 0) {
-    arrMusic[Math.floor(arrMusic.length / 2)] = 'classic';
+// if(arrMusic.length % 2 != 0) {
+//     arrMusic[Math.floor(arrMusic.length / 2)] = 'classic';
+// }
+
+// arrMusic.unshift('rap', 'acapella');
+
+// console.log(arrMusic);
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+// function calcMath(num) {
+//     return(13 + 4 * num);
+// }
+// console.log(calcMath(4));
+
+// function createConstants(str) {
+//     str = str.split('');
+//     for(let i = 0; i < str.length; i++) {
+//         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u') {
+//             str[i] = '';
+//         }
+//     }
+//     let output = '';
+//     for(let i = 0; i < str.length; i++) {
+//         output += str[i];
+//     }
+//     return(output);
+// }
+// console.log(createConstants('practice'));
+
+// function lorem(input) {
+//     input = input.split(' ');
+//     let output = '';
+//     for(let i = 0; i < input.length; i++) {
+//         if(!(input[i].length >  4)) {
+//             output += input[i] + ' ';
+//         }
+//     }
+//     return(output);
+// }
+// console.log(lorem('Lorem nisi do nulla magna ipsum eu nostrud eiusmod non ullamco occaecat deserunt sunt'));
+
+
+// function calcRandom() {
+//     let num = Math.round(Math.random() * 10)
+//     console.log(12 + 4 * num);
+// }
+
+
+function power() {
+    console.log((Math.ceil(Math.random() * 10)) ** 2);
 }
 
-arrMusic.unshift('rap', 'acapella');
+function square() {
+    let val;
+    if(Number.isInteger(Math.sqrt(val)) == false) {
+        do {
+            val = Math.ceil(Math.random() * 100);
+        } while (Number.isInteger(Math.sqrt(val)) == false);
+    }
+    console.log(`Value: ${val}\nSquare Root: ${Math.sqrt(val)}`);
+}
 
-console.log(arrMusic);
+function slope() {
+    let arrAns = ['As I see it, yes.', 'Ask again later.', 'Better not tell you now.', 'Cannot predict now.', 'Concentrate and ask again.', 'Don’t count on it.', 'It is certain.', 'It is decidedly so.', 'Most likely.', 'My reply is no.', 'My sources say no.', 'Outlook not so good.', 'Outlook good.', 'Reply hazy, try again.', 'Signs point to yes.', 'Very doubtful.', 'Without a doubt.', 'Yes.', 'Yes – definitely.', 'You may rely on it.'];
+    console.log(`Should you go snowboarding?: ${arrAns[Math.floor(Math.random() * 20)]}`);
+}
