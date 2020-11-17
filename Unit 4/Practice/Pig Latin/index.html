@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <meta name="author" content="Ilya Tate">
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta property="og:image" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-
+    <meta name="author" content="Ilya Tate">
+    <title>Pig Latin Translator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="" type="image/x-icon">
 </head>
+
 <body>
+    <header>
+        <h1>Pig Latin Converter</h1>
+    </header>
+    <main>
+        <input type="text" id="input">
+        <button onclick="createPigLatinSentence()">Click to convert</button>
+        <div class="answer">
+            <p id="output"></p>
+        </div>
+
+    </main>
     <script src="script.js"></script>
-
-
-    <button onclick="translatePigLatin()" class="translate-piglatin">Translate to Pig Latin</button>
 </body>
+
 </html>

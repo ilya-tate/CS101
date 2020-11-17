@@ -1,0 +1,37 @@
+- DOM is the Document Object Model and is how we scan the HTML for elements, IDs, Classes, and more to define with JS
+- HTML that script tag is in is considered the "document" hence the name document object model
+Ex.
+    <!DOCTYPE HTML>
+    <html>
+
+    <head>
+        <title>
+        About elk
+        </title>
+    </head>
+
+    <body>
+        The truth about elk
+    </body>
+
+    </html>
+
+    https://gyazo.com/2c88e91419c53cb2ee0b80b01c22f5d4
+
+
+Input and Output:
+- Best way to use to communicate with the document (HTML files) is by using IDs.
+- We have been using calsses to modify the styles of all of the different elements but how we can use teh IDs to interact with the JS
+Ex.
+    <input type="text" id="input">
+    document.getElementById("input");
+
+- An input can be gotten from the HTML using the input boxes and then using the ".value" method
+- Great way to get content from the suer and then using it in the javascript
+Ex.
+    document.getElementById("input").value;
+
+- To update an existing element you can use the ".textContent" method
+- This will change any of the text on the HTML so that you can display new information
+Ex.
+    document.getElementById("input").textContent = "New Text";
