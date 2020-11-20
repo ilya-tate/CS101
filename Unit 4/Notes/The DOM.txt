@@ -35,3 +35,19 @@ Ex.
 - This will change any of the text on the HTML so that you can display new information
 Ex.
     document.getElementById("input").textContent = "New Text";
+
+
+Modifying the Styles:
+- CSS is more temperamental with JS changes, the best way to modify the styles of HTML is to add and remove classes that you have already created in the CSS.
+- Do this by looking at the classlist and modifyin it.
+Ex.
+    document.getElementById(idName).classList;
+
+"classList":
+- The classList will create and array that can be used to see every clas that is attracted to the element that you use it on.
+- Once you have the lsit of classes you can do a few things like ad more, remove some, or just check to see if a class is present at all
+
+.add(className); - Allows you to add a new class to the element's list
+.containe(className); - Allows you to check if the element has a certain class
+.remove(className); - Removes a class from the list
+.toggle(className); - Turns a class on/off without remocing it
