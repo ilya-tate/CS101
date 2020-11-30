@@ -9,13 +9,33 @@
 body {
     min-height: 100vh;
     justify-content: center;
-    align-content: cetner;
-    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
+header {
+    margin: 20px auto;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
 
-/* Header Styles */
+main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
 
+.cell {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 2rem;
+    font-family: 'Nerko One', cursive;
+}
 
-
-/* Main Content */
+/* .cell:focus {
+    outline: 0;
+} */
