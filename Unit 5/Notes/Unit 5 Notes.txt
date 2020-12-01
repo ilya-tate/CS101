@@ -1,0 +1,96 @@
+-- CODER ETIQUETTE --
+
+
+    SDLC 101:
+        - An SDLC, when used correctly, will ensure that the client gets what they want, that the end users are happy with a functioning product, and the coders have a clear list of things that need to be added.
+        - This can be misused and case frustration and wasted tiem for everyone. Please take these seriously.
+    SDLC 102:
+        - Think of the SDLC as a contract that you make with your client so that you know what they want and they know your direction.
+        - It protects you just as much as them, if the client tries to say that you did a bad job you can turn to the SDLC and show them why did what you did.
+
+Step 1 - Planning
+    Listen to the Client:
+        - When you first meet with a client you need to introduce yourself and meet each other for a second.
+        - Share your name and ask theirs, ask about their business and try to get give them a nice experience for them.
+    Follow Up Questions:
+        - Now that you hae heard their ideas, take some notes about concrete ideas or must haves, you have the opportunity to ask some questions of your own.
+        - This should not turn into a 20 questions marathon, but it is important that you ask the information that you need.
+    Question 1:
+        - Can you describe your business in a few sentences?
+        - This is not always required if the introduction to the team goes well.
+        - If there is a lot of base information that you need from them then this is a great start to the conversation.
+        - From there you can ask the to clarify, but you should not interrupt their talking, simple comments are a nice way to keep the comments going.
+    Question 2:
+        - What are some make or break design items for you?
+        - Can you provide and example sire that you like?
+        - There can be some items that the client needs; search bars, credit page, no footers, no ad space, etc.
+        - They may not have any items that they can think of to love or hate, that is when you ask the follow up question for examples to use as a reference.
+    Question 3:
+        - Who is your target audience?
+        - This should tell you more about the layout and the styles that you are going to use.
+        - If it's for kids you want more open space and less content.
+        - If it's for engineers you want big words and sharp angles.
+        - This will mostly act as a reference for you to keep on brand.
+    Question 4:
+        - Can you give me a list of features that your site requires and describe how they will be interacted with by the user?
+        - For instance if they want a shopping cart, should it be always visible, have its own page, or just be a small pop-up on the top?
+        - If you are asking for a quantity of something should you use a box, a slider, radio buttons, or something else.
+        - This may also be nothing, but you should try to press them if you see something that could vary.
+    Question 5:
+        - What is the time frame of this project?
+        - When would you need this done by?
+        - THis is going to be a bit of a conversation, you will have to be honest here and really tell them your ability to meet their expectations.
+        - Have a conversation about what they can drop from their wants or if they are able to give you more time to work. This includes possible flexible pay.
+    Your Last Chance:
+        - After you have heard about hte project, what htey want in it, what the time fram is and what user interactions are required. You get to decide if you want the job or not.
+        - You need to be honest with yourself, if they are asking too much then find a new client and don't waste your time with them.
+        - Sometimes a bad client is not worth any amount of money.
+
+Web Design
+    Designing:
+        - Now that you have an idea of what the site is about and what it needs to hold, you need to work with the client to design their dream site.
+        - Again, this is a collaboration. If there is something hat you think they are doing wrong you need to tell them.
+        - Don't be afraid to add or remove things, just make sure you ask for permission first.
+    Mock-Ups:
+        - A mock-up is a hand drawn rough draft of the sire that you are going to be building.
+        - This is usually done with the client and looks incredibly messy.
+        - Things will be added and remobed, feel free to cross those out of scribble and then when you nad the client are happy with the outcome redraw it.
+        - You can then use words or other pens to mark colors aswell.
+        - These are important to document!
+        - This is where you get crucial input from the client about the final product and you are obligated to make it similar to that, and they are obligated to pay you for your time.
+        - If you come to the client at the end and they hate it you can show them what you agreed on and see what they would like to fix.
+        - Think of this as a non-legal contract that makes sure the client and yourself both ge tthe desired outcome.
+    Mobile Design:
+        - THis will work very similarly to the other mock-up but now you need to reposition everything to fit on a phone screen.
+        - Make sure you consider if you need to delete/hid anything like content or pictures to makes room.
+        - Document this just like the web version.
+
+    Development:
+        - Not much to say here, you do your job and code.
+        - If you do something controversial or you realize that something looks bad in practice then reach out to that main contact and ask what to do.
+        - Always check in once in a while with updates on how the project is going, this will keep them happy and in the loop and also keep you honest with the time frame.
+    Document Everything:
+        - Make little comments about the work you are doing and the decisions that you made along the way.
+        - Make notes on the original design about changed but do not replace the website.
+    Testing:
+        - Testing is quality assurance.
+        - Here you try everything in an attempt to find bugs and vulnerabilities so that you can patch them out.
+        - There are professionals that do this for a living but for smaler projects you can do it yourself.
+        - It is important to try and use the code in an unintended way.
+    Presentation:
+        - This can look like many things but most likely the client has not seen the whole site or all of the functionality so you need to give them a tour.
+        - You should use the planning part of the SDLC to show that you added everything they asked for and demonstrate the page navigation.
+        - If there are some complex functions be prepared to demo the site as well.
+    Delivery:
+        - If it all goes well then the client weill be happy and they will accept the site from you you will get your full pay and everyone will be happy.
+        - If something goes wrong this could be where you go back to the development and fix something for the client that they hated.
+        - You should not be changing everything, maybe just a few little updates.
+        - If they want a full site rework, they will need to pay you for that (this is what the SDLC is for).
+
+    The Aftermath:
+        - Some clients will ask you to stay on and keep updating the site, working on new stuff for them or just be available by phone if things go wrong.
+        - Even if they don't offer it you can give them your number and let them know that you can fix or update the site if they ever need it.
+        - If you build up a large client base this can be a full time job on its own and with 10+ companies all paying you to be available you can make a lot of money.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
