@@ -92,5 +92,39 @@ Web Design
         - Even if they don't offer it you can give them your number and let them know that you can fix or update the site if they ever need it.
         - If you build up a large client base this can be a full time job on its own and with 10+ companies all paying you to be available you can make a lot of money.
 
+Agile Development
+    Agile Intro:
+        - This is a specific form of SDLC and is currently the most used version across the world.
+        - As the name implies this is a form of DLC that is felxible so that it can be used for any project.
+        - This form of SDLC focuses very heavily on the user experience and client collaboration.
+    The Agile Values:
+        - Indiviuals and Interactions
+        - Instead of just focusing on the project and what needs to be done you can focus on the team and how they do it.
+        - If you have a hapy team and they are all owrking together very well when the product will turn out better.
+        - This also goes with the client, if you have a good relationship with the customer the project has a better chance for success.
+        - Working Software
+        - While testing and creating your project you should make it available to everyone.
+        - Many older companies would spend their time creating rendered images of the site and typing up instructions on how to use the site.
+        - You should instead have it up so that people can see and use it while you push out consistent updates.
+        - Customer Collaboration
+        - By keeping constant comunication with the client and customers you can ensure that you are creating what they want to receive and what will be best for the users.
+        - This will also avoid large changes or unfortunate miscommunications at the end of the project.
+        - Responging to Change
+        - Unlike other forms of design, agile is based around the idea that at any point the entire project and scope can change.
+        - People's needs, modern design, software, and the team you are working with change constantly and your project needs to be able to change with all of that.
+    The Agile Principles:
+        - These are your 12 commandmenst while working on your SDLC and you better believe this will be on your test in come capacity.
+        - 1. Your highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+        - 2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+        - 3. Deliver working software frequently, from a couple of weeks to a couple of months, and as needed.
+        - 4. Business people and developers must work together daily throughout the project.
+        - 5. Build projects around motivated indiviuals. Give them the environment and support their needs, and trust them to get the job done.
+        - 6. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+        - 7. Working software is the primary measure of progress.
+        - 8. Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+        - 9. Continuous attention to technical excellence and good design enhances agility. Shortcuts can negatively affect you in the future.
+        - 10. Simplicity, the art of maximizing the amount of work not done, is essential.
+        - 11. The best architectures, requirements, and designs emerge from self-organizing teams.
+        - 12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts behavior accordingly.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

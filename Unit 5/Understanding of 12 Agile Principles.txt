@@ -1,0 +1,12 @@
+1. I asked for a basic vision of the website and based a lot of what was expected off of that.
+2. A feature may have not worked out as intended and instead may be replaced with a different feature.
+3. For the project with Law & Public Safety we will need to talk to them frequently on how the website is going and for their input.
+4. On a team you may need to communicate on how everything will fit together.
+5. I am not very good at CSS, so I may leave something like that to someone else while I work on anther part of the project.
+6. Talking to people in person can help you getter a better feel for what they want rather than online.
+7. If I can see that a portion of the project actually works, I know that my time has been spent actually doing something and real progess has been made.
+8. To keep the project on track with what people need, you need to talk to them.
+9. I had to completely redo a part of the Tic Tac Toe because I decided to make one part of it shorter.
+10. Overworking yourself may lead to a lower quality product.
+11. When people can work together on something with everyone pitching in their own ideas that can organically make something that is better rather than following a very specific path do develop the finished product.
+12. If something isn't working out like someone is really stuck on a certain part of the JavaScript, then it's fine if someone else works on that for a little bit or helps them out on it.
