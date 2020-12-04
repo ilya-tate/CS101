@@ -8,7 +8,7 @@
         - Think of the SDLC as a contract that you make with your client so that you know what they want and they know your direction.
         - It protects you just as much as them, if the client tries to say that you did a bad job you can turn to the SDLC and show them why did what you did.
 
-Step 1 - Planning
+Step 1 Planning
     Listen to the Client:
         - When you first meet with a client you need to introduce yourself and meet each other for a second.
         - Share your name and ask theirs, ask about their business and try to get give them a nice experience for them.
@@ -64,7 +64,6 @@ Web Design
         - THis will work very similarly to the other mock-up but now you need to reposition everything to fit on a phone screen.
         - Make sure you consider if you need to delete/hid anything like content or pictures to makes room.
         - Document this just like the web version.
-
     Development:
         - Not much to say here, you do your job and code.
         - If you do something controversial or you realize that something looks bad in practice then reach out to that main contact and ask what to do.
@@ -86,7 +85,6 @@ Web Design
         - If something goes wrong this could be where you go back to the development and fix something for the client that they hated.
         - You should not be changing everything, maybe just a few little updates.
         - If they want a full site rework, they will need to pay you for that (this is what the SDLC is for).
-
     The Aftermath:
         - Some clients will ask you to stay on and keep updating the site, working on new stuff for them or just be available by phone if things go wrong.
         - Even if they don't offer it you can give them your number and let them know that you can fix or update the site if they ever need it.
@@ -127,4 +125,144 @@ Agile Development
         - 11. The best architectures, requirements, and designs emerge from self-organizing teams.
         - 12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts behavior accordingly.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Color
+    Basics:
+        Primary - Red, Yellow, Blue
+        Secondary - Orange, Green, Violet
+        Tertiary - Yellow-orange, Yellow-green, Blue-green, Blue-violet, Red-violet, Red-orange
+    Warm Colors:
+        - Warm colors are what you think of a nice sunnt Fall day.
+        - These are energy colors and make people want to take action.
+        - These colors will draw attention and seem to pop out, especially when they are placed on a cool background.
+    Action Items:
+        - Action items are smaller parts of your site that you want to draw the user's attention.
+        - These can be buttons, tabs, or important information.
+        - Usually are in warm colors.
+    Cool Colors:
+        - These are mroe calming and likely what you would use in a background.
+        - Since these don't push somone to action they are not often used for action items but if combined with a white background any color will draw attention.
+    Monochromatic:
+        - A monochromatic site uses only one color with varying shades and tints.
+        - This can lead at to a feeling of unity throughout your site and depending on the color can also prompt your users to prejudge your site in certain ways.
+    Complimentary Colors:
+        - These are colors that are on the opposite sides do the color wheel.
+        - When used together they really pop and the warm colors will REALLY stand out on top of the complimentary cool color.
+    Split-Complementary Colors:
+        - This is a much more common use of colors for a website.
+        - This will still give you strong contract like before but will also give more choices to choose from.
+        - Just like last time the subject of the page or the item that you want users t opay attention to should be the single complimentary color.
+    Achromatic Color:
+        - One of the more common design choices. This can lead to very professional and clean looking web design.
+        - Achromatic is where you only use black nad white (and shades between) And then throw in a color to highlight the action item.
+        - Be careful, the color you use will say a lot about the theme of your site.
+    Triatic and Tetradic Colors:
+        - These are site with three or four colors that are spread throughout the color wheel.
+        - When using this kind of color scheme the site will look bery busy and lively.
+        - These are good for sites that you want to have a more exploratory feel, people need to look to find important parts on their own instead of having the path told to them.
+    Red:
+        - Intense action, good or bad
+        - Passion
+        - Love
+        - War
+        - Danger
+        - Fire
+        - Strength
+    Orange:
+        - Warmth and youth
+        - Stimulating
+        - Creative
+        - Success
+        - Summer
+        - Enthusiasm
+        - Fun
+    Yellow:
+        - Happiness and joy
+        - Joy
+        - Intellect
+        - Energy
+        - Attention grabbing
+        - Sunshine
+        - Fast
+    Green:
+        - Growth, plants, and wealth
+        - Nature
+        - Money
+        - Healing
+        - Freshness
+        - Life
+    Blue:
+        - Tranquility and safety
+        - Peace
+        - Masculine
+        - Trustworthy
+        - Secure
+        - Stability
+        - Refreshing
+    Purple:
+        - Royalty and power
+        - Mystery
+        - Wealth
+        - Ambition
+        - Nobility
+        - Confidence
+
+Logo Design / Solagns
+    What Makes a Strong Logo:
+        - A strong logo is simple to copy without a computer, a child should be able to recreates it with some accuracy.
+        - It should be easily recongnizable, if someone has seen it once theye should recognize it the next time they see it.
+        - It should also reflect an idea or message to your audience.
+    Tip #1 Know Your Brand:
+        - How do you want people to think of you at first sight.
+        - Are you a tough brand for rugged outdoor hikers?
+        - Are you a softer brand for selling baked goods?
+        - Tough brands usually have more simple designs, opting for agemoetric lines while softer brands will use a recognizable image or a more complicated picture.
+    Tip #2 Reflect on the Nature of Your Business:
+        - What do you want to share with people about your business?
+        - For example, you may want to use a car because your business is speedy.
+    Tip #3 Impression is Crucial:
+        - The first time someone sees your logo should be enough to have it be recognized later in the day.
+        - An easy way to test this is by showing someone your logo and then give them three to four similar ones later in the day. Which one did you see?
+        - If they can guess it you have a logo with a strong impression.
+    Tip #4 Use Color in a Planned Way:
+        - We went over color earlier in this, please use those similarly when creating your logo.
+        - The color can do a lot, but most importantly it should be bright to draw attention to it.
+        - Don't pick random colors, these can say a lot about your brand.
+    Tip #5 Pick Font Carefully:
+        - The font you pick should reflect the business, the target audience, and the branding.
+        - Use a fun cursive font for a whimisical winter theme.
+        - Use a strong bod font for a rock/metal music group.
+        - If you use a really strong font it can be part of your logo.
+    Tip #6 Choose the Type of Logo:
+        - Do you want an image or do you wnat text or maybe you can turn your text into an image.
+        - This is an important question for a small or unkown business.
+        - Many businesses these days are combining the name of the company into the branding, this saves on advertising since everything you breand will also have your company name on it.
+    Tip #7 Keep it Simple:
+        - When creating a logo it should one use one or two colors, an object, a single font, etc.
+        - If there is too much going on then it can muddle the message that you are trying to present to your customers.
+        - A very clear concise design will give meaning.
+    Tip #8 Make it Scalable:
+        - You should create several designs for the same logo that will be used on different sized ads or merchandise.
+        - This can be the smae but put thought into it.
+    Tip #9 It Should Be Impressive Without Color:
+        - There wil be many situations where your logo may need to be black and white.
+        - Make sure that your logo does not look like a black blob or a Picasso drawing when reduced to black and white.
+        - Many people suggest creating a colorless logo first and then filling in color after.
+
+Slogans
+        - Different ways to make a slogan.
+    Highlight an Effective Benefit:
+        - Why your company is the best for what it does.
+        - Does it do anything different from the competitors that a customer would care about.
+        - What is the company's general mission?
+    Explain the Company's Commitment:
+        - What do yo ucare about as a business?
+        - Waht is the focus of the business that you are "commiting" to your customers before they sign up.
+    Keep it Short:
+        - This should be a small sound bite no longer than five words so people can get it stuck in their heads.
+        - The more you can say with fewer words the better.
+    Give it a Rhythm:
+        - This doesn't mean that you are going to make them by rhyming words, but give them a rhythm that can be "sang".
+    Stay Honest:
+        - Do not say that you have the best food around when your real focus is on having the fastest food around.
+        - If your slogan is a lie people will turn on you very quickly.
+        - Sometimes it is better to promise nothing that you can be wrong.
