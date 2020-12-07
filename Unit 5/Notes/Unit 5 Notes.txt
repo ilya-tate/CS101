@@ -266,3 +266,7 @@ Slogans
         - Do not say that you have the best food around when your real focus is on having the fastest food around.
         - If your slogan is a lie people will turn on you very quickly.
         - Sometimes it is better to promise nothing that you can be wrong.
+
+Photo Editing
+    Pixlr.com:
+        - This is a photoshop lite website that lets you do all kinds of editing on your browser with no download required.
