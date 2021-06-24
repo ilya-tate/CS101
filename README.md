@@ -1,4 +1,5 @@
-# CS101
+# WM-CS101
+
 Ilya Tate
 West-MEC Coding
-Repo for all class files
+Survey of Coding
